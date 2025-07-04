@@ -1,0 +1,2572 @@
+{
+  "bmw_z3_guide": {
+    "models": [
+      {
+        "model": "1.9L (M44)",
+        "engine": "4-cylinder",
+        "years": "1996-1998",
+        "common_issues": [
+          "Cooling system overhaul (water pump, thermostat, radiator)",
+          "Timing belt replacement (every 60,000 miles)",
+          "Idle control valve issues",
+          "Crankcase ventilation (CCV) system failures"
+        ]
+      },
+      {
+        "model": "2.3L (M52TUB25)",
+        "engine": "6-cylinder",
+        "years": "1999-2000",
+        "common_issues": [
+          "VANOS seal degradation",
+          "Cooling system overhaul",
+          "Valve cover gasket leaks",
+          "Secondary air pump failure"
+        ]
+      },
+      {
+        "model": "2.5L (M54B25)",
+        "engine": "6-cylinder",
+        "years": "2001-2002",
+        "common_issues": [
+          "VANOS seal degradation",
+          "DISA valve failure",
+          "Oil consumption issues",
+          "Cooling system overhaul"
+        ]
+      },
+      {
+        "model": "2.8L (M52B28)",
+        "engine": "6-cylinder",
+        "years": "1997-2000",
+        "common_issues": [
+          "VANOS seal degradation",
+          "Cooling system overhaul",
+          "Subframe issues (more prevalent with higher torque)",
+          "Dual mass flywheel wear"
+        ]
+      },
+      {
+        "model": "3.0L (M54B30)",
+        "engine": "6-cylinder",
+        "years": "2001-2002",
+        "common_issues": [
+          "VANOS seal degradation",
+          "DISA valve failure",
+          "Oil consumption issues",
+          "Subframe issues"
+        ]
+      },
+      {
+        "model": "M Roadster/Coupe (S52)",
+        "engine": "6-cylinder",
+        "years": "1998-2000",
+        "common_issues": [
+          "VANOS issues",
+          "Subframe spot weld failures (critical)",
+          "Rod bearing wear (less common than S54, but still a concern)",
+          "Stiffer suspension components lead to faster bushing wear"
+        ]
+      },
+      {
+        "model": "M Roadster/Coupe (S54)",
+        "engine": "6-cylinder",
+        "years": "2001-2002",
+        "common_issues": [
+          "Rod bearing failure (critical, requires inspection/replacement)",
+          "VANOS failure (high-pressure system)",
+          "Subframe spot weld failures (critical)",
+          "Throttle position sensor (TPS) failures"
+        ]
+      }
+    ],
+    "common_problems": [
+      {
+        "problem": "Cooling System Failure",
+        "symptoms": "Engine overheating, coolant leaks, sweet smell from engine bay, temperature gauge in the red.",
+        "causes": "Plastic water pump impeller failure, cracked thermostat housing, radiator leaks, expansion tank cracks.",
+        "solution": "Complete cooling system overhaul every 60,000 miles. Replace water pump, thermostat, thermostat housing, radiator, and all hoses.",
+        "related_guides": [
+          "water_pump_replacement",
+          "thermostat_replacement"
+        ]
+      },
+      {
+        "problem": "Subframe Tear / Cracked Spot Welds",
+        "symptoms": "Clunking or popping noise from the rear on acceleration or deceleration, loose feeling in the rear end, visible cracks in the trunk floor or around the differential mount.",
+        "causes": "Stress from suspension and differential torque on the unibody.",
+        "solution": "Reinforcement kit (e.g., Randy Forbes kit) must be welded in. This is a major repair.",
+        "related_guides": [
+          "subframe_reinforcement"
+        ]
+      },
+      {
+        "problem": "VANOS Rattle / Failure",
+        "symptoms": "Rattling noise from the front of the engine, loss of low-end torque, engine hesitation.",
+        "causes": "Degraded VANOS seals (M52/M54) or worn VANOS unit (S52/S54).",
+        "solution": "Replace VANOS seals with upgraded Viton seals. For S52/S54, may require a rebuilt VANOS unit.",
+        "related_guides": [
+          "vanos_seal_replacement"
+        ]
+      },
+      {
+        "problem": "Oil Leaks",
+        "symptoms": "Burning oil smell, oil drips under the car, low oil level.",
+        "causes": "Valve cover gasket, oil filter housing gasket, oil pan gasket.",
+        "solution": "Replace the leaking gasket.",
+        "related_guides": [
+          "valve_cover_gasket_replacement"
+        ]
+      },
+      {
+        "problem": "Worn Suspension Bushings",
+        "symptoms": "Sloppy handling, clunking noises over bumps, uneven tire wear.",
+        "causes": "Age and wear of rubber bushings.",
+        "solution": "Replace control arm bushings, rear trailing arm bushings, and sway bar links.",
+        "related_guides": []
+      },
+      {
+        "problem": "Interior Issues",
+        "symptoms": "Rocking seats, sagging glovebox, hazy plastic rear window.",
+        "causes": "Worn seat bushings, broken glovebox tabs, sun damage to plastic window.",
+        "solution": "Replace seat bushings with Delrin or polyurethane. Install glovebox reinforcement kit. Polish or replace rear window.",
+        "related_guides": []
+      }
+    ],
+    "maintenance_schedules": {
+      "inspection_1": {
+        "name": "Inspection I (every 30,000 miles)",
+        "tasks": [
+          "Change engine oil and filter",
+          "Replace cabin air filter",
+          "Inspect cooling system for leaks",
+          "Inspect suspension and steering components",
+          "Check brake pads and rotors",
+          "Check tire condition and pressure",
+          "Reset service indicator"
+        ]
+      },
+      "inspection_2": {
+        "name": "Inspection II (every 60,000 miles)",
+        "tasks": [
+          "All items from Inspection I",
+          "Replace spark plugs",
+          "Replace engine air filter",
+          "Replace fuel filter",
+          "Change manual transmission fluid",
+          "Change differential fluid",
+          "Inspect drive belts",
+          "Perform cooling system overhaul (recommended)"
+        ]
+      }
+    },
+    "troubleshooting_guide": [
+      {
+        "symptom": "Engine Overheating",
+        "possible_causes": [
+          {
+            "cause": "Low coolant level",
+            "solution": "Check for leaks and top off coolant."
+          },
+          {
+            "cause": "Failed water pump",
+            "solution": "Replace water pump.",
+            "guide": "water_pump_replacement"
+          },
+          {
+            "cause": "Stuck thermostat",
+            "solution": "Replace thermostat.",
+            "guide": "thermostat_replacement"
+          },
+          {
+            "cause": "Leaking radiator",
+            "solution": "Replace radiator."
+          }
+        ]
+      },
+      {
+        "symptom": "Clunking from Rear",
+        "possible_causes": [
+          {
+            "cause": "Worn differential mount",
+            "solution": "Replace differential mount."
+          },
+          {
+            "cause": "Subframe damage",
+            "solution": "Inspect for cracks and reinforce.",
+            "guide": "subframe_reinforcement"
+          },
+          {
+            "cause": "Worn trailing arm bushings",
+            "solution": "Replace bushings."
+          }
+        ]
+      },
+      {
+        "symptom": "Engine Hesitation",
+        "possible_causes": [
+          {
+            "cause": "Failing VANOS seals",
+            "solution": "Replace VANOS seals.",
+            "guide": "vanos_seal_replacement"
+          },
+          {
+            "cause": "Clogged fuel filter",
+            "solution": "Replace fuel filter."
+          },
+          {
+            "cause": "Vacuum leak",
+            "solution": "Inspect intake boots and vacuum lines."
+          }
+        ]
+      }
+    ],
+    "ppi_checklist": {
+      "title": "Pre-Purchase Inspection Checklist",
+      "sections": [
+        {
+          "name": "Engine",
+          "items": [
+            "Check for oil leaks (valve cover, oil filter housing, oil pan)",
+            "Listen for VANOS rattle (especially on cold start)",
+            "Check for signs of overheating (coolant residue, warped plastic)",
+            "Pull oil cap to check for milky residue (head gasket issue)",
+            "Check for smoke from exhaust (blue = oil, white = coolant)"
+          ]
+        },
+        {
+          "name": "Drivetrain & Suspension",
+          "items": [
+            "Check for subframe cracks in trunk and under car",
+            "Check for clunking from rear end (diff mount, subframe)",
+            "Check for worn control arm and trailing arm bushings",
+            "Check shocks for leaks",
+            "Check for smooth clutch engagement and no slipping"
+          ]
+        },
+        {
+          "name": "Body & Interior",
+          "items": [
+            "Check for rust at jacking points, behind wheel wells, and under battery tray",
+            "Check convertible top for leaks and tears",
+            "Check for hazy/cracked plastic rear window",
+            "Check for rocking seats",
+            "Check for sagging glovebox",
+            "Ensure all electronics work (windows, locks, lights)"
+          ]
+        }
+      ]
+    },
+    "repair_guides": {
+      "water_pump_replacement": {
+        "id": "water_pump_replacement",
+        "title": "Water Pump Replacement",
+        "description": "A guide to replacing the water pump in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3 hours",
+        "tools": [
+          "Socket set",
+          "Wrench set",
+          "Screwdrivers",
+          "M6 bolts (for 4-cylinder models)",
+          "Ratchet",
+          "Plastic scraper",
+          "Drain pan",
+          "Hose clamp pliers (optional)"
+        ],
+        "parts": [
+          "Water pump (metal impeller recommended)",
+          "Coolant (BMW G48 spec)",
+          "Distilled water",
+          "Serpentine belt (recommended)",
+          "Radiator hoses (recommended)"
+        ],
+        "steps": [
+          {
+            "text": "Ensure the engine is cool and the cooling system lacks pressure before opening."
+          },
+          {
+            "text": "Drain the cooling system. (Refer to cooling system draining and filling guide if available)."
+          },
+          {
+            "text": "Remove the engine cooling fan and shroud. (Refer to radiator cooling fan replacement guide if available)."
+          },
+          {
+            "text": "**For 4-cylinder models:** Before removing the engine drive belt, loosen the four 10mm water pump pulley fasteners (do not remove yet). Remove the engine drive belt (only the alternator belt needs to be removed). Remove the four 10mm water pump pulley fasteners.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "Remove the water pump pulley from the water pump. While the pulley is off, inspect it for small cracks or damage.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "Remove the three 10mm water pump mounting fasteners and one 6mm Allen fastener. When removing the Allen fastener, use a fast sharp loosening action the first time you attempt to loosen it. Be sure your Allen bit is fully engaged in the bolt before removing it.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "The water pump sits deep in the timing cover and it can be tough to get the sealing O-ring to pass through. Thread two M6 bolts into the top and bottom of the water pump. Use a ratchet to evenly tighten, one turn per side, then switch and tighten opposite side, repeat until the water pump O-ring has cleared the timing cover.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "Once the water pump O-ring has cleared the timing cover, you can remove it by hand.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "Once the water pump has been removed, clean the O-ring rubber from the water pump housing. Thoroughly clean the water pump mounting surface and check for debris inside the water pump cavity (inside the timing cover).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "Lubricate the new water pump O-ring with coolant and install it into the engine. Hand tighten the fasteners in a crisscross pattern slowly. Be careful not to work too quickly, as you could strip the threads."
+          },
+          {
+            "text": "**For 6-cylinder models:** Before removing the engine drive belt, loosen the four 10mm water pump pulley fasteners (do not remove yet). Remove the engine drive belt.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic07.jpg"
+          },
+          {
+            "text": "Remove the four 10mm water pump pulley fasteners.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "Remove the water pump pulley from the water pump. Inspect it for cracks or damage.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic09.jpg"
+          },
+          {
+            "text": "Remove the four 10mm water pump mounting nuts.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic10.jpg"
+          },
+          {
+            "text": "The water pump sits deep in the timing cover and it can be tough to get the sealing O-ring to pass through. Thread two M6 bolts into the sides of the water pump.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic11.jpg"
+          },
+          {
+            "text": "Use a ratchet to evenly tighten, a few turns per side, then switch and tighten the opposite side, repeat until the water pump O-ring has cleared the timing cover.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic12.jpg"
+          },
+          {
+            "text": "Once the water pump O-ring has cleared the timing cover, you can remove it by hand.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Water_Pump_Replacement/images_large/pic13.jpg"
+          },
+          {
+            "text": "Before installing the new water pump, thoroughly clean the water pump mounting surface and check for debris inside the water pump cavity (inside the timing cover). Lubricate the new water pump O-ring with coolant and install it into the engine. Hand tighten the fasteners in a crisscross pattern slowly. Be careful not to work too quickly, as you could strip the stud threads."
+          },
+          {
+            "text": "Install the water pump pulley and tighten fasteners."
+          },
+          {
+            "text": "Install the engine drive belt and cooling fan shroud."
+          },
+          {
+            "text": "Fill and bleed the cooling system. Once complete, check the cooling system for leaks and top up coolant."
+          }
+        ],
+        "image_url": ""
+      },
+      "subframe_reinforcement": {
+        "title": "Subframe Reinforcement",
+        "difficulty": "Advanced",
+        "time": "10-15 hours",
+        "tools": [
+          "Welder",
+          "Grinder",
+          "Suspension press tools",
+          "Full socket set",
+          "Heat gun",
+          "Putty knife",
+          "Shop rags",
+          "Gasoline (for cleaning)",
+          "Spot weld drill bit",
+          "Various clamps",
+          "Electric cut off tool with 1mm cutting discs",
+          "Dremel with cutting disc",
+          "Ingersoll Rand 90 degree angle grinder with Roloc 50 grit discs",
+          "Handheld spring punch",
+          "Vise grips"
+        ],
+        "parts": [
+          "Subframe reinforcement kit (e.g., Randy Forbes kit)",
+          "New subframe and differential bushings",
+          "BMW differential bracket (part 41118398664)"
+        ],
+        "steps": [
+          {
+            "text": "**Step 1: Remove the sound deadening.** BMW uses a tar-like mat for sound deadening. Use a heat gun and a putty knife to remove the sound deadening. It may leave some residue.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0196.jpg"
+          },
+          {
+            "text": "Remove all necessary sound deadening, including seam sealer on the frame rails. The seam sealer needs to be heated and scraped.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0212.jpg"
+          },
+          {
+            "text": "**Step 2: Prepare for surgery.** Clean up the sound deadening residue using shop rags and gasoline as a solvent.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0217.jpg"
+          },
+          {
+            "text": "Remove the dead floor brackets by drilling out their spot welds using a spot weld drill bit.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0218.jpg"
+          },
+          {
+            "text": "After both brackets are removed, mark roughly where the metal needs to be cut.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0239.jpg"
+          },
+          {
+            "text": "Begin cutting using an electric cut off tool with 1mm cutting discs. Clip a welding blanket inside the rear hatch to prevent sparks from flying.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0251-e1518400333839.jpg"
+          },
+          {
+            "text": "Remove any welded studs that impede cutting by clamping with vise grips and bending back and forth until loose.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0264.jpg"
+          },
+          {
+            "text": "Once the access panel is cut out, clean out any remnants and debris from the inner cavity.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0272.jpg"
+          },
+          {
+            "text": "Use a Dremel with a cutting disc to cut excess areas of metal and make the trunk floor as even as possible. Then, vacuum out the cavity.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0282.jpg"
+          },
+          {
+            "text": "Use an air-powered 90-degree angle grinder with Roloc discs to grind the edges smooth and clean up rough metal.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0280.jpg"
+          },
+          {
+            "text": "Flatten the three raised bumps of the trunk floor by cutting slits on either side, bending them up, grinding off paint, and hammering them back down.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0293.jpg"
+          },
+          {
+            "text": "Prepare the differential ear bracket (e.g., BMW part 41118398664) for reinforcing the existing differential ear. Use a handheld spring punch to mark areas for drilling holes, which will be used for plug welding.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0307.jpg"
+          },
+          {
+            "text": "Before welding, stop-drill any small cracks in the diff ear to prevent spreading. Then, sand and weld the crack.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0352.jpg"
+          },
+          {
+            "text": "Cut the reinforcement plate into pieces and test fit them to the existing diff ear. Grind both the diff ear and reinforcement to bare metal for welding.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0338.jpg"
+          },
+          {
+            "text": "**Step 3: Welding the single diff ear reinforcement.** Fit the reinforcement to the differential ear and clamp it into place with multiple welding clamps. Use the bolt to help align it.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0488.jpg"
+          },
+          {
+            "text": "Commence welding the rear diff ear reinforcement with plug welding. Check weld penetration from the inside cavity.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0498.jpg"
+          },
+          {
+            "text": "After plug welds are complete, stitch weld the edges of the reinforcement in small sections, alternating sides.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0561.jpg"
+          },
+          {
+            "text": "Bend down the back side of the diff ear mount in preparation for the other reinforcement to be welded on.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0684.jpg"
+          },
+          {
+            "text": "Sand the mount to bare metal and clamp the new reinforcement on with welding clamps.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0747.jpg"
+          },
+          {
+            "text": "After plug welds are completed, hammer the stock diff ear mount back flat with the new reinforcement.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0769.jpg"
+          },
+          {
+            "text": "Complete and sand all reinforcement plug welds on all sides of the diff mount.",
+            "image_url": "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0807.jpg"
+          }
+        ],
+        "images": [
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0154.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0167.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0207.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0196.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0197.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0203.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0212.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0205.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0215.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0217.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0218.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0223.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0224.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0226.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0227.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0236.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0239.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0251-e1518400333839.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0240.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0241.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0245.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0261.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0263.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0264.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0267.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0270.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0272.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0273.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0277.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0282.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0284.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0280.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0291.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0293.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0297.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0302.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0303.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0305.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0324.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0320.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0322.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0326.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0307.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0308.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0311.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0312.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0316.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0313.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0352.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0353.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0338.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0464.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0475.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0488.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0498.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0531.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0555.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0561.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0562.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0567.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0583.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0588.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0606.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0638.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0684.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0685.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0747.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0759.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0769.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0775.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0778.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0779.jpg",
+          "https://www.bimmerbrothers.com/wp-content/uploads/2018/02/DSC_0807.jpg"
+        ]
+      },
+      "vanos_seal_replacement": {
+        "id": "vanos_seal_replacement",
+        "title": "VANOS Seal Replacement (M52/M54)",
+        "description": "A guide to replacing the VANOS seals in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "4-6 hours",
+        "tools": [
+          "VANOS specific tools",
+          "Torque wrench",
+          "Metric socket set"
+        ],
+        "parts": [
+          "Viton VANOS seal kit",
+          "Valve cover gasket set"
+        ],
+        "steps": [
+          {
+            "text": "Remove valve cover.",
+            "image_url": "https://vanos-bmw.com/procedures/vanos_procedure_files/image001.jpg"
+          },
+          {
+            "text": "Use specialized tools to remove VANOS piston.",
+            "image_url": "https://vanos-bmw.com/procedures/vanos_procedure_files/image020.jpg"
+          },
+          {
+            "text": "Carefully remove old seals and replace with new Viton seals.",
+            "image_url": "https://vanos-bmw.com/procedures/vanos_procedure_files/image032.jpg"
+          },
+          {
+            "text": "Re-install VANOS piston and torque to spec.",
+            "image_url": "https://vanos-bmw.com/procedures/vanos_procedure_files/image045.jpg"
+          },
+          {
+            "text": "Install new valve cover gasket and re-install valve cover."
+          },
+          {
+            "text": "Clear any engine codes."
+          }
+        ]
+      },
+      "valve_cover_gasket_replacement": {
+        "title": "Valve Cover Gasket Replacement",
+        "difficulty": "Beginner",
+        "time": "2-3 hours",
+        "tools": [
+          "Metric socket set",
+          "Torque wrench",
+          "Gasket scraper",
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "8mm socket",
+          "10mm socket"
+        ],
+        "parts": [
+          "Valve cover gasket set (includes spark plug well seals)",
+          "Valve cover fastener sealing grommets",
+          "RTV (silicone sealant)"
+        ],
+        "steps": [
+          {
+            "text": "Remove the engine cover on the cylinder head."
+          },
+          {
+            "text": "**For 4-cylinder models:** Detach the wiring harness housing by removing the two Phillips head screws. This allows more movement at the back of the valve cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Remove the E-box seal from the right side engine compartment.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic02.jpg"
+          },
+          {
+            "text": "Unclip the plastic harness retainer (eight clips) and remove it from the E-box by lifting it up.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Remove the wiring harnesses from their mounting points to move the plastic housing above the valve cover out of the way.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Remove the two 10mm nuts for the wiring harness housing mount. Then remove the mount from the firewall. Repeat for the right side mount.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic05.jpg"
+          },
+          {
+            "text": "At the right side bulkhead, cut the wire tie securing the harness to the firewall.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic06.jpg"
+          },
+          {
+            "text": "Remove the crankcase breather hose from the rear corner of the valve cover by pulling it straight off. Replace if brittle or torn.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic07.jpg"
+          },
+          {
+            "text": "At the ignition coil, rotate the electrical connector counterclockwise to disconnect.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic08.jpg"
+          },
+          {
+            "text": "Remove the two 8mm nuts from the ignition coil mounting bracket studs.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic09.jpg"
+          },
+          {
+            "text": "Lift the ignition coil up and off the mounting bracket and lay aside.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic10.jpg"
+          },
+          {
+            "text": "Loosen the two 10mm ignition wire loom fasteners about three turns.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic11.jpg"
+          },
+          {
+            "text": "Slide the ignition loom with mounting bracket up and out of the valve cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic12.jpg"
+          },
+          {
+            "text": "Once the loom is free, remove each spark plug wire from the spark plugs. Then remove the ignition wires and ignition coil as a unit. Store them in a safe place, avoiding fluids.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic13.jpg"
+          },
+          {
+            "text": "Using a flathead screwdriver, lever out the plastic bracket from the valve cover by disengaging the four plastic retaining tabs.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic14.jpg"
+          },
+          {
+            "text": "Remove the fifteen 10mm valve cover fasteners. The fasteners at the center near the spark plug holes will come out, the others around the perimeter will stay in the valve cover. Ensure all are loose before attempting to remove the valve cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic15.jpg"
+          },
+          {
+            "text": "Lift the valve cover off the cylinder head. If stuck, ensure all fasteners are loose and gently tap with a rubber mallet to free it.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic16.jpg"
+          },
+          {
+            "text": "Once the valve cover is removed, pull the old valve cover gasket out. Thoroughly clean the valve cover sealing groove and the ignition plug hole seals.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic17.jpg"
+          },
+          {
+            "text": "Remove sealing grommets from valve cover fasteners and replace with new ones. Install the new valve cover gasket into the sealing groove in the valve cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic18.jpg"
+          },
+          {
+            "text": "Use a plastic scraper to clean the cylinder head sealing surface.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic19.jpg"
+          },
+          {
+            "text": "Apply a small amount of RTV sealant to the timing cover to cylinder head joining area on both sides. Install the new valve cover onto the engine, ensuring it is properly aligned. Install all fasteners finger tight, then tighten in a cross-cross pattern. Reinstall ignition coils and wires. Reconnect crankcase breather hose. Reinstall wiring harnesses and mounting bracket. Start and idle engine, inspect for oil leaks. Reinstall engine cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic20.jpg"
+          },
+          {
+            "text": "**For 6-cylinder models:** Remove engine covers. Using a small flathead screwdriver, release the ignition coil electrical connector retainer by prying up, then pull the electrical connector out of the ignition coil. Repeat for all six ignition coils.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic21.jpg"
+          },
+          {
+            "text": "Remove the two 10mm ignition coil fasteners. Repeat for all six ignition coils.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic22.jpg"
+          },
+          {
+            "text": "Remove the ignition coil from the cylinder head by pulling straight up. If it resists, twist when pulling up to break free from the spark plug. Repeat for all six ignition coils.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic23.jpg"
+          },
+          {
+            "text": "At the center of the valve cover, remove the 8mm nut and ground strap from the valve cover fastener.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic24.jpg"
+          },
+          {
+            "text": "Unclip the ignition coil wiring harness from the valve cover by pulling up and remove it from the engine. Lay it on the left side of the engine out of the way.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic25.jpg"
+          },
+          {
+            "text": "Pull the oxygen sensor electrical connectors out of the holder and lay aside. Then remove the secondary air vacuum hose from the holder and lay aside (location may vary).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic26.jpg"
+          },
+          {
+            "text": "Remove the fifteen 10mm valve cover fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic27.jpg"
+          },
+          {
+            "text": "Lift the valve cover off the cylinder head. It should not be stuck; if it is, check for missed fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic28.jpg"
+          },
+          {
+            "text": "Once the valve cover is removed, pull the old valve cover gasket out. Thoroughly clean the valve cover sealing groove. Remove sealing grommets from valve cover fasteners and replace with new. Install new valve cover gasket into the sealing groove in the valve cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic29.jpg"
+          },
+          {
+            "text": "Apply a small amount of RTV to seams at the VANOS actuator and cylinder head. Place the valve cover on the cylinder head and install all fasteners finger tight. Then tighten fasteners in a cross-cross pattern. Reinstall ignition coils and install and route wiring harness. Start and idle engine, inspect for oil leaks. Reinstall engine covers.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic30.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic07.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic08.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic09.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic10.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic11.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic12.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic13.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic14.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic15.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic16.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic17.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic18.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic19.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic20.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic21.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic22.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic23.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic24.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic25.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic26.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic27.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic28.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic29.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Valve_Cover_Replacement/images_med/pic30.jpg"
+        ]
+      },
+      "oil_change": {
+        "title": "Engine Oil and Filter Change",
+        "difficulty": "Beginner",
+        "time": "1 hour",
+        "tools": [
+          "36mm socket or oil filter cartridge socket",
+          "17mm wrench",
+          "Phillips screwdriver",
+          "Flathead screwdriver",
+          "Drain pan"
+        ],
+        "parts": [
+          "Engine oil (meeting BMW specifications)",
+          "Oil filter",
+          "Drain plug sealing washer"
+        ],
+        "steps": [
+          {
+            "text": "Run the engine for 2-3 minutes to warm the engine oil. Do not allow the engine to get too hot."
+          },
+          {
+            "text": "**For 4-cylinder models:** The oil filter cartridge housing requires a special socket to be removed. Using an oil filter socket and a 6-inch extension, loosen the oil filter housing lid until you can see the sealing O-ring. This allows oil in the filter housing and filter to drain into the engine oil pan. If you do not do this first, you will leave about a liter of old engine oil behind.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic01.jpg"
+          },
+          {
+            "text": "Raise and support the front of the vehicle. Place a drain pan centered below the oil drain plug. Using a 17mm wrench, remove the oil drain plug. Allow engine oil to drain until it stops dripping. Install the oil drain plug with a new sealing washer and torque to 25 Nm (18 ft-lb). Remove the drain pan from below the vehicle.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic03.jpg"
+          },
+          {
+            "text": "Remove the oil filter cover from the engine and remove the old oil filter from the engine.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic04.jpg"
+          },
+          {
+            "text": "Using a small flathead screwdriver or a pick, remove the O-rings from the oil filter cover. Install new O-rings and a new filter. Then torque the oil filter cover to 25 Nm (18 ft-lb).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic05.jpg"
+          },
+          {
+            "text": "Fill the engine with engine oil. While filling, use the dipstick to obtain the correct level. Oil capacity for 4-cylinder: 5.0 liters. Start the engine; confirm the oil warning light goes out. Shut off the engine and allow oil to drain to the bottom of the pan for a few minutes. Then pull the dipstick and recheck the oil level. Check that there are no oil leaks, lower the vehicle from jack stands and you are done.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic06.jpg"
+          },
+          {
+            "text": "**For 6-cylinder models:** Using a 36mm socket on a 6-inch extension, loosen the oil filter housing lid until you can see the sealing O-ring. This allows oil in the filter housing and filter to drain into the engine oil pan. Raise and support the front of the vehicle. Place a drain pan centered below the oil drain plug.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic07.jpg"
+          },
+          {
+            "text": "Using a 17mm wrench, remove the oil drain plug. Allow engine oil to drain until it stops dripping. Install the oil drain plug with a new sealing washer and torque to 25 Nm (18 ft-lb). Remove the drain pan from below the vehicle.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic08.jpg"
+          },
+          {
+            "text": "Remove the oil filter cover from the engine and remove the old oil filter from the cover.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic09.jpg"
+          },
+          {
+            "text": "Inspect the filter housing and filter cover for oil filter debris, especially if the old filter is bent or collapsed. Using a small flathead screwdriver, remove the O-rings from the oil filter cover. Install new O-rings and a new filter. Then torque the oil filter cover to 25 Nm (18 ft-lb).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic11.jpg"
+          },
+          {
+            "text": "Fill the engine with engine oil. While filling, use the dipstick to obtain the correct level. Standard 6-cylinders: 6.5 liters. M models: 1998-2000: 6.0 liters. 2001-2002: 5.5 liters. Start the engine; confirm the oil warning light goes out. Shut off the engine and allow oil to drain to the bottom of the pan for a few minutes. Then pull the dipstick and recheck the oil level. Check that there are no oil leaks, lower the vehicle from jack stands and you are done.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_med/pic13.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_large/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_large/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_large/pic07.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_large/pic08.jpg"
+        ]
+      },
+      "spark_plug_replacement": {
+        "title": "Spark Plug Replacement",
+        "difficulty": "Beginner",
+        "time": "1-1.5 hours",
+        "tools": [
+          "Spark plug socket (5/8\")",
+          "Torque wrench",
+          "Socket extension",
+          "Flathead screwdriver",
+          "Small plastic tool (for spark plug wires, if 4-cylinder)"
+        ],
+        "parts": [
+          "Spark plugs (NGK BKR6EQUP or Bosch FGR7DQP+ for 6-cylinder)",
+          "Anti-seize paste"
+        ],
+        "steps": [
+          {
+            "text": "Ensure the engine is cool before starting. Remove engine cover on cylinder head."
+          },
+          {
+            "text": "**For 4-cylinder models:** BMW Z3 models with a 4-cylinder engine utilize one ignition coil with an individual ignition wire running to each spark plug. BMW supplied a small plastic tool used to remove the spark plug wires from the spark plugs. If it is missing, you can substitute a pair of soft-jawed spark plug wire pliers.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Using the supplied tool, pull up on the ignition wire to remove it from the spark plug. If the wire is stuck, try twisting it to remove. If you are only replacing the spark plugs, replace one at a time to avoid mixing up the wires. If you find engine oil has contaminated the ignition wire boot, you will have to repair the oil leak and replace the ignition wire.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Using a 5/8 spark plug socket on a 12-inch extension, remove the spark plug from the cylinder head. Lightly lubricate new spark plugs with copper-based anti-seize. Thread spark plugs into the cylinder head by hand to prevent accidental cross-threading. Torque spark plugs to 25 Nm (18 ft-lb). Be sure to route the ignition wire as it was before. Install engine covers and check your work.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "**For 6-cylinder models:** BMW Z3 models equipped with a 6-cylinder engine utilize an individual ignition coil for each spark plug (coil over plug). When servicing your spark plugs, ensure the engine is cool. Be careful not to drop a spark plug; if you do, replace it. Remove engine cover on cylinder head.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic12.jpg"
+          },
+          {
+            "text": "Using a small flathead screwdriver, release the ignition coil electrical connector retainer by prying up, then pull the electrical connector out of the ignition coil.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic13.jpg"
+          },
+          {
+            "text": "Remove the two 10mm ignition coil fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic14.jpg"
+          },
+          {
+            "text": "Remove the ignition coil from the cylinder head by pulling straight up. If the coil resists, twist when pulling up to break free from the spark plug. If you find engine oil has contaminated the ignition coil boot, you will have to repair the oil leak and replace the ignition coil boot (or ignition coil).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic15.jpg"
+          },
+          {
+            "text": "Using a 5/8 spark plug socket on a 12-inch extension, remove the spark plug from the cylinder head. Lightly lubricate new spark plugs with copper-based anti-seize. Thread spark plugs into the cylinder head by hand to prevent accidental cross-threading. Torque spark plugs to 25 Nm (18 ft-lb). Reinstall ignition coils and reconnect electrical connectors. Be sure to route the wiring harness as it was before and connect ignition coil grounds. Install engine covers and check your work.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic16.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic07.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic08.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic09.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic10.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic11.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic12.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic13.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic14.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic15.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/57-ENGINE-Spark_Plug_Ignition_Wire_Coil_Replacement/images_med/pic16.jpg"
+        ]
+      },
+      "brake_pad_rotor_replacement": {
+        "title": "Front Brake Pad and Rotor Replacement",
+        "difficulty": "Intermediate",
+        "time": "2-3 hours",
+        "tools": [
+          "7mm Allen socket",
+          "16mm socket",
+          "Brake piston compressor tool",
+          "Wire brush",
+          "Jack and jack stands",
+          "Flathead screwdriver",
+          "Metal coat hanger or rope"
+        ],
+        "parts": [
+          "Front brake pad set",
+          "Front brake rotor",
+          "Brake pad wear sensor",
+          "Brake grease",
+          "Brake fluid",
+          "Brake cleaner"
+        ],
+        "steps": [
+          {
+            "text": "With the vehicle on the ground, loosen each wheel stud about 1/2 turn. This will help with removing them once the vehicle is jacked up."
+          },
+          {
+            "text": "Lift and support the axle of the vehicle you are replacing brake pads on. Remove the wheels on the axle you are replacing brake pads on."
+          },
+          {
+            "text": "Using a flathead screwdriver, remove the brake caliper anti-rattle spring by prying out while securing with your hand. The spring can pop off and go flying, so be sure to hold it steady.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Open the brake caliper bleeder cover and remove the pad wear sensor wire from the mount.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic02.jpg"
+          },
+          {
+            "text": "Pull the brake pad wear sensor out of the brake pad. Be very careful as the sensor tends to break when removed. Use a pair of needle nose pliers to pull the sensor out.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Using a flathead screwdriver, slowly press the brake caliper piston in. This allows the brake caliper to be pulled off the brake rotor easily. Pry between the outer brake pad and brake rotor to avoid damaging the caliper piston. Forcing the piston back into the caliper will cause the brake fluid in the reservoir to rise, so be prepared to remove some fluid.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Remove the rubber plugs from the brake caliper mounting fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic05.jpg"
+          },
+          {
+            "text": "Using a 7mm Allen bit, remove the brake caliper mounting fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic06.jpg"
+          },
+          {
+            "text": "Remove the brake caliper from the mounting bracket. Do not allow the brake caliper to hang from the brake hose. Secure it to the vehicle using a piece of a metal coat hanger or rope.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic09.jpg"
+          },
+          {
+            "text": "Remove the brake pads from the brake caliper. Then press the piston back into the caliper using a brake caliper piston tool. Install new brake pads into the caliper and caliper mounting bracket. Install the caliper to the mounting bracket and tighten fasteners. Then install rubber plugs. Connect the pad wear sensor electrical connector and route the wiring harness as before. Install the brake pad wear sensor into the brake pad. Install the brake pad anti-rattle clip by pressing into the caliper and pushing down to confirm it is properly seated. Once calipers are installed and fasteners are tight, press the brake pedal to pump the brakes up. Once the brake pedal is hard to push, install the wheels and check brake operation.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic10.jpg"
+          },
+          {
+            "text": "**For Rotor Replacement:** Inspect your brake rotors for cracks, scoring, or pulsation when braking. Measure brake rotor thickness using a micrometer to determine if they need replacing. Most factory rotors and some aftermarket rotors will have a minimum thickness stamped on the rotor. Clean rust away from the rotor to uncover specs.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Working behind the brake caliper, remove the two 18mm (rear rotor is 16mm) brake caliper bracket mounting bolts. Remove the brake caliper bracket from the wheel carrier and hang the caliper using a piece of metal coat hanger or rope. Do not allow the caliper to hang from the brake hose.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic05.jpg"
+          },
+          {
+            "text": "Using a 6mm Allen bit, remove the brake rotor mounting fastener. Then remove the brake rotor from the hub. The rotor might be stuck, so be prepared to give it a few taps with a mallet. If you are replacing the rear rotor, make sure the parking brake is off before trying to remove the rotor.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic06.jpg"
+          },
+          {
+            "text": "Clean the wheel hub using a wire brush. Remove all corrosion and rust from the hub before installing the new rotor. Install the new brake rotor and tighten mounting fasteners. Then reinstall the brake caliper and tighten bracket mounting bolts. Once calipers are installed and fasteners are tight, press the brake pedal to pump the brakes up. Once the brake pedal is hard to push, install the wheels and check brake operation.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic07.jpg"
+          }
+        ],
+        "images": [
+          "https://bmwz3diys.weebly.com/uploads/1/1/6/3/11632741/7713540_orig.jpg",
+          "https://bmwz3diys.weebly.com/uploads/1/1/6/3/11632741/8398014_orig.jpg",
+          "https://bmwz3diys.weebly.com/uploads/1/1/6/3/11632741/743622_orig.jpg",
+          "https://bmwz3diys.weebly.com/uploads/1/1/6/3/11632741/5011291_orig.jpg",
+          "https://bmwz3diys.weebly.com/uploads/1/1/6/3/11632741/8438073_orig.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic09.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/01-BRAKES-Brake_Pads_Replacement/images_med/pic10.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/02-BRAKES-Brake_Rotor_Replacement/images_med/pic07.jpg"
+        ]
+      },
+      "fuel_filter_replacement": {
+        "title": "Fuel Filter Replacement",
+        "difficulty": "Beginner",
+        "time": "1 hour",
+        "tools": [
+          "10mm socket",
+          "Wrenches",
+          "Screwdrivers",
+          "Drain pan",
+          "Flathead screwdriver",
+          "Fire extinguisher (recommended)",
+          "Eye and hand protection"
+        ],
+        "parts": [
+          "Fuel filter",
+          "New hose clamps (recommended)"
+        ],
+        "steps": [
+          {
+            "text": "The fuel filter is located beneath the vehicle on the left side, mounted on the frame rail."
+          },
+          {
+            "text": "Before replacing your fuel filter, have a suitable container available to catch any fuel that spills when fuel lines are loosened or removed. Have clean rags available to wipe up excess fuel and have a fire extinguisher handy. Eye and hand protection are a must and if fuel comes in contact with your skin, wash it off immediately. Also, make sure to work in a well ventilated area and do not allow fuel vapors to gather. This is a repair best suited for outdoor, on solid level ground. It's a good idea to relieve fuel system pressure before beginning. The best way to relieve fuel system pressure is to remove the fuel pump fuse and run the vehicle until the engine stalls."
+          },
+          {
+            "text": "Remove fuses #13 and #18 (check that this fuse applies to your vehicle). Use the fuse application chart located below your fuses to identify the fuse number. Start and run the engine until it stalls. Once the engine stalls, attempt to start again; if it does not start, fuel system pressure has been relieved. Keep in mind; this does not remove all the fuel from the fuel lines, only the pressure. So you still need to be prepared to catch leaking fuel when fuel lines are disconnected. Disconnect the negative (-) battery cable."
+          },
+          {
+            "text": "Remove the four 10mm fuel filter cover mounting fasteners, then remove the fuel filter cover. Clean the fuel filter, fuel lines, and clamps thoroughly. This will help prevent dirt from entering the fuel system.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Working at the inlet side of the fuel filter, remove the fuel line clamp(s), then disconnect the fuel line from the filter, and allow fuel to drain into a suitable container. Next, check that the fuel is clean and free from contaminants."
+          },
+          {
+            "text": "Early model fuel filters have a single inlet hose. Late model fuel filters have two inlet hoses. If you find debris in your fuel, the fuel tank will need to be serviced or replaced. Next, remove the outlet fuel line from the fuel filter, and allow fuel to drain into a suitable container.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic08.jpg"
+          },
+          {
+            "text": "Next, lever the fuel line out of the holder (if needed) using a flathead screwdriver. This allows access to the mounting bracket nut. Then, remove the 10mm nut for the fuel filter mounting bracket and remove the fuel filter from the vehicle. Quickly place the fuel filter into a container and allow remaining fuel to drain. Give your work space at least 15 minutes to air out before installing the new filter.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic11.jpg"
+          },
+          {
+            "text": "When installing the new filter, be sure to get the orientation correct. The inlet and outlet are usually marked. Depending on the fuel filter manufacturer, there may also be an arrow facing in the direction of fuel flow. Before installing, inspect the condition of the rubber fuel lines. If lines show signs of cracking or wear, replace with new. Install the new fuel filter in the fuel filter bracket and tighten the 10mm fastener. Using new hose clamps, install fuel lines (starting with the inlet). Tighten hose clamps being careful not to over-torque. Once all fuel lines are connected and tight, reinstall the fuel pump fuse and start the engine. Let the engine run for about 1 minute. Then recheck your work and confirm there are no fuel leaks. Once you are sure no fuel leaks are present, reinstall the fuel filter cover. Clean up any spilled fuel remaining and properly dispose of the old fuel filter.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic13.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_large/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_large/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_large/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic07.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic08.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic09.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic10.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic11.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic12.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/25-FUEL-Fuel_Filter_Replacement/images_med/pic13.jpg"
+        ]
+      },
+      "differential_fluid_change": {
+        "title": "Differential Fluid Change",
+        "difficulty": "Beginner",
+        "time": "1 hour",
+        "tools": [
+          "14mm Allen socket/wrench",
+          "17mm Allen bit (if needed)",
+          "Fluid pump",
+          "Drain pan",
+          "Rubber gloves"
+        ],
+        "parts": [
+          "Differential oil (1-2 quarts of 75W-90 gear oil, check for LSD)",
+          "Differential plug sealing washers (2)"
+        ],
+        "steps": [
+          {
+            "text": "Drive the vehicle for about two to three minutes to warm up the differential oil."
+          },
+          {
+            "text": "Lift and support the front and rear of your vehicle. You want the differential you are servicing to be level when checking the oil level."
+          },
+          {
+            "text": "To check your differential fluid: Using a 14mm or 17mm Allen bit, remove the oil fill plug. Fluid should be just at the bottom edge of the fill plug hole. Insert your finger into the fill hole to check it. Be sure to wear a rubber glove to protect yourself from the oil. Top fluid up if needed.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "If your socket and ratchet won't fit into the space, place the box end of a wrench over the Allen socket and use it to loosen the plugs.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic02.jpg"
+          },
+          {
+            "text": "Working at the differential: Using a 14mm Allen bit, remove the oil fill plug.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Next, using a 14mm Allen bit, remove the differential oil drain plug. Drain oil into a suitable container that has a 2-liter capacity. Once the oil has completely drained, reinstall the drain plug with a new gasket and torque to 70 Nm (52 ft-lb).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Pump oil into the fill plug hole until it runs out. Allow oil to stop dripping or come to a slow drip, then reinstall the fill plug. Once done, take the vehicle for a short ride and check the rear differential for leaks.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic05.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_large/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_large/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_large/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_large/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_large/pic05.jpg"
+        ]
+      },
+      "manual_transmission_fluid_change": {
+        "title": "Manual Transmission Fluid Change",
+        "difficulty": "Beginner",
+        "time": "1 hour",
+        "tools": [
+          "17mm wrench",
+          "Fluid pump",
+          "Drain pan",
+          "Long handle ratchet or breaker bar (if needed)"
+        ],
+        "parts": [
+          "Manual transmission fluid (about 1 liter, have 2 on hand)",
+          "Fill and Drain plugs (recommended to replace with new)"
+        ],
+        "steps": [
+          {
+            "text": "Jack up all four corners of your vehicle. I suggest using four jack stands and slowly raising the vehicle to the required height. The vehicle needs to be level when checking and replacing fluid. Remove the splash shield under the drive-train."
+          },
+          {
+            "text": "Working at the side of the transmission, remove the 17mm fill plug. The fill plug can be tight, use a ratchet with a long handle or a breaker bar if you cannot get it loose with a wrench. Next you will remove the drain plug.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_med/pic01.jpg"
+          },
+          {
+            "text": "Place a drain pan under the transmission and remove the fluid drain plug. Be sure your drain pan has a capacity of at least four liters. Once fluid has drained, reinstall and tighten the drain plug.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_med/pic02.jpg"
+          },
+          {
+            "text": "Using a fluid pump, fill the transmission until fluid flows out of the fill plug hole. Then allow fluid to run out until it flows out slowly from the bottom of the hole. Install the fill plug and tighten to 50 Nm (37 ft-lb).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_med/pic03.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_large/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_large/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/74-TRANS-Manual_Trans_Fluid_Replacing/images_large/pic03.jpg"
+        ]
+      },
+      "coolant_system_bleed": {
+        "title": "Cooling System Bleeding Procedure",
+        "difficulty": "Beginner",
+        "time": "30 minutes",
+        "tools": [
+          "Flathead screwdriver or Phillips head, depending on bleed screw"
+        ],
+        "parts": [
+          "BMW G48 coolant (blue)",
+          "Distilled water"
+        ],
+        "steps": [
+          {
+            "text": "With the engine cold, fill the expansion tank to the 'KALT' (cold) line."
+          },
+          {
+            "text": "Turn the ignition to the 'on' position (do not start engine). Set heater to full hot and fan to low. This opens the heater core valve."
+          },
+          {
+            "text": "Locate the bleed screw on the expansion tank or upper radiator hose."
+          },
+          {
+            "text": "Slightly open the bleed screw."
+          },
+          {
+            "text": "Continue to pour coolant/water mix into the expansion tank until it flows out of the bleed screw in a steady, bubble-free stream."
+          },
+          {
+            "text": "Tighten the bleed screw."
+          },
+          {
+            "text": "Start the engine and let it warm up, keeping an eye on the temperature gauge. Top off coolant if the level drops.",
+            "image_url": "https://zroadster.org/attachments/img_1183-jpg.37667/"
+          }
+        ],
+        "images": [
+          "https://zroadster.org/attachments/img_1183-jpg.37667/"
+        ]
+      },
+      "rocking_seat_fix": {
+        "title": "Fixing a Rocking Seat",
+        "difficulty": "Beginner",
+        "time": "30 minutes per seat",
+        "tools": [
+          "13mm Socket",
+          "16mm Socket",
+          "17mm Socket",
+          "T25 Bit",
+          "T50 Bit",
+          "Coarse Sand Paper",
+          "Grease",
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "Ratchet"
+        ],
+        "parts": [
+          "Seat bushing kit (Delrin or Polyurethane recommended)"
+        ],
+        "steps": [
+          {
+            "text": "**Removing the Seat:** Start by sliding the seat all the way back to get access to the front seat nuts and remove with a 13mm socket. Next slide the seat all the way forward and raise the seat to its highest position in order to get your socket and wrench on the bolts, use a 16 mm socket and remove the rear bolts. Next tilt the seat forward and remove the seat belt to seat anchor bolt with a 17mm socket. These next step is important, move the seat to the all the way back position.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats01.png"
+          },
+          {
+            "text": "If you do not have access to an airbag reset tool, do not turn the ignition on, and in fact hide your keys for an hour. Tilt the seat forward and disconnect the yellow seat belt tensioner multi plug, next disconnect the black and white multi plugs for the motors and heated seat pads."
+          },
+          {
+            "text": "You can now lift the seat out of the car and place on its side on a work surface of your choice and protection for the leather."
+          },
+          {
+            "text": "**Removing the Kebabs:** If you followed the instructions and removed the seats in the all the way back position you will see looking at the under side of the seat rails that you have access to three bolts 1 T50 Bolt and two T25 bolts."
+          },
+          {
+            "text": "Undo the T50 bolt and remove.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats02.png"
+          },
+          {
+            "text": "Undo the T25 bolts and remove.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats03.png"
+          },
+          {
+            "text": "Pull on the kebab from the T50 bolt end and the kebab will start to slide out, at this time you can also start to move the seat rail back with you, which will allow the kebab to pull completely free.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats04.png"
+          },
+          {
+            "text": "With the kebab free remove the nut end and count how many full turns it take. On mine on both seats and all four kebabs this was 8 full turns. Remember this number (your count not mine).",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats06.png"
+          },
+          {
+            "text": "For the next 15 minutes you will need to start sanding the replacement bushes down, and checking the fit against the nut and the carrier, until you get a very snug fit of the nut and bushes in the carrier (wedged fit), when sanding it is very important to rotate the bush in all directions to get as even a thickness as possible.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats08.png"
+          },
+          {
+            "text": "Once you have achieved your snug fit and have assembled the nut, and the bushes into the carrier re-assemble the kebab by turning the nut the same number of full turns back onto the screw, as it took to get off (remember to grease the threads of the screw), in my case it was 8 full turns.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats09.png"
+          },
+          {
+            "text": "Now put the kebab back into the seat rail and push up to the square drive of the seat motor, you will be able to see this through the square cut out in the seat rail, use a thin crew driver to align the square drive with the end of the kebab and push home.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats11.png"
+          },
+          {
+            "text": "Align all boltholes and re-assemble the T25 and T50 bolts.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats12.png"
+          },
+          {
+            "text": "Repeat the process for all other kebabs on both seats."
+          },
+          {
+            "text": "Refit the seats as a reversal of the removal, do not forget attach all multi plugs and to attach the seat belt anchor point in the upright position, you can now find your keys again."
+          }
+        ],
+        "images": [
+          "https://zroadster.org/wp-content/uploads/2013/04/seat-bushes.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats01.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats02.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats03.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats04.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats05.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats06.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats07.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats08.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats09.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats11.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats111.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats12.png",
+          "https://zroadster.org/wp-content/uploads/2013/04/z3_rocking_seats13.png"
+        ]
+      },
+      "glovebox_sag_fix": {
+        "title": "Fixing a Sagging Glovebox",
+        "difficulty": "Beginner",
+        "time": "1 hour",
+        "tools": [
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "Plastic prying tool"
+        ],
+        "parts": [
+          "Glovebox reinforcement kit or small L-brackets",
+          "Glovebox (if replacing)",
+          "Plastic (for repair, if needed)",
+          "Epoxy (for repair, if needed)"
+        ],
+        "steps": [
+          {
+            "text": "The glovebox on Z3 models is known to sag over time and eventually break away from the dashboard. The only solution for a sagging glovebox is to replace it. If it is too late and it has broken away from the mounting place, this can be repaired by adding some plastic and remounting the glove box."
+          },
+          {
+            "text": "Working at the center console, remove two plastic trim caps using a small flathead screwdriver. Then remove the Phillips head screws beneath the caps.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic02.jpg"
+          },
+          {
+            "text": "Working under the dashboard, twist locking retainers 90 degrees.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Then remove the trim panel by pulling it down and away from the dashboard. Open the glove compartment and remove all items from within it.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Next, remove the remaining plastic trim caps from the glovebox screws. Then remove the Phillips head screws beneath the caps.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic05.jpg"
+          },
+          {
+            "text": "Close the glovebox, then pull it down and away from the dashboard. Once the glovebox is moved forward, pull the center console trim outward and slide the glovebox out from beneath it. Then the glovebox can be removed from the vehicle.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic06.jpg"
+          },
+          {
+            "text": "If a speed nut broke away from the dashboard, you may need to improvise. Source a thin piece of plastic, then attach it with epoxy to the dashboard. Then drill a hole and reinstall the speed nut. To install your glovebox, reverse the removing steps. Be sure the screws are properly aligned with the speed nuts.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic07.jpg"
+          }
+        ],
+        "images": [
+          "https://hosting.photobucket.com/images/nn84/kezug/20240330_093843.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/73-BODY-Glovebox_Replacement/images_med/pic07.jpg"
+        ]
+      },
+      "brake_fluid_flush": {
+        "id": "brake_fluid_flush",
+        "title": "Brake Fluid Flush",
+        "description": "A guide to flushing the brake fluid in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "1-2 hours",
+        "tools": [
+          "Turkey baster or fluid extractor",
+          "Brake bleeder wrench (8mm or 11mm, check your caliper)",
+          "Clear hose (aquarium tubing works well)",
+          "Catch bottle",
+          "Jack and jack stands",
+          "Gloves",
+          "Safety glasses"
+        ],
+        "parts": [
+          "2 liters of DOT4 brake fluid (e.g., ATE TYP 200, Motul RBF600)"
+        ],
+        "steps": [
+          {
+            "text": "Safely lift the car and place it on jack stands, ensuring it is level.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/92-BRAKES-Brake_Bleeding/images_large/pic01.jpg"
+          },
+          {
+            "text": "Open the hood and locate the brake fluid reservoir. Use a turkey baster or fluid extractor to remove as much old fluid as possible from the reservoir."
+          },
+          {
+            "text": "Fill the reservoir with new DOT4 brake fluid."
+          },
+          {
+            "text": "Starting with the caliper furthest from the master cylinder (usually rear passenger), attach the clear hose to the bleeder nipple and place the other end in a catch bottle.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/92-BRAKES-Brake_Bleeding/images_large/pic02.jpg"
+          },
+          {
+            "text": "Have an assistant slowly press and hold the brake pedal. While the pedal is held down, open the bleeder nipple with the wrench. Old fluid and air bubbles will come out. Close the nipple before the pedal reaches the floor."
+          },
+          {
+            "text": "Repeat this process until clean, bubble-free fluid comes out. Ensure the reservoir never runs dry; top it off frequently with new fluid."
+          },
+          {
+            "text": "Repeat the bleeding process for the remaining calipers in this order: rear driver, front passenger, front driver.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/92-BRAKES-Brake_Bleeding/images_large/pic03.jpg"
+          },
+          {
+            "text": "After all calipers are bled, top off the reservoir to the MAX line. Pump the brake pedal several times to ensure a firm pedal feel."
+          },
+          {
+            "text": "Check for any leaks around the bleeder nipples."
+          }
+        ]
+      },
+      "cabin_air_filter_replacement": {
+        "id": "cabin_air_filter_replacement",
+        "title": "Cabin Air Filter Replacement",
+        "description": "A guide to replacing the cabin air filter in your BMW Z3.",
+        "difficulty": "Beginner",
+        "time": "30 minutes",
+        "tools": [
+          "Phillips head screwdriver",
+          "Flathead screwdriver"
+        ],
+        "parts": [
+          "Cabin air filter (e.g., Mann, Mahle)"
+        ],
+        "steps": [
+          {
+            "text": "Locate the cabin air filter housing, typically under the hood on the passenger side, near the windshield.",
+            "image_url": "http://www.rfdm.com/albums/album143/IMG_3425.jpg"
+          },
+          {
+            "text": "Remove any clips or screws holding the housing cover in place."
+          },
+          {
+            "text": "Carefully remove the old cabin air filter. Note its orientation."
+          },
+          {
+            "text": "Clean any debris from the housing."
+          },
+          {
+            "text": "Install the new cabin air filter, ensuring it is oriented correctly (airflow arrow usually points down or towards the cabin).",
+            "image_url": "http://www.rfdm.com/albums/album62/mmr_105.jpg"
+          },
+          {
+            "text": "Reinstall the housing cover and secure any clips or screws."
+          }
+        ]
+      },
+      "abs_asc_module_repair": {
+        "id": "abs_asc_module_repair",
+        "title": "ABS/ASC Module Repair",
+        "description": "A guide to repairing or replacing the ABS/ASC module in your BMW Z3.",
+        "difficulty": "Intermediate to Advanced",
+        "time": "2-4 hours",
+        "tools": [
+          "Torx bit set (T20, T25, T30)",
+          "Flathead screwdriver",
+          "Small pick set",
+          "Soldering iron and fine gauge solder (for DIY repair)",
+          "Multimeter"
+        ],
+        "parts": [
+          "ABS/ASC module repair kit (if repairing existing module)",
+          "Replacement ABS/ASC module (if replacing)"
+        ],
+        "steps": [
+          {
+            "text": "Locate the ABS/ASC module, typically mounted on the ABS pump near the master cylinder.",
+            "image_url": "https://www.bimmerforums.com/forum/attachment.php?s=35989caede81dcbe27dbc523e78a079a&attachmentid=264735&d=1224381167"
+          },
+          {
+            "text": "Disconnect the battery's negative terminal."
+          },
+          {
+            "text": "Carefully disconnect the electrical connector from the module. There is usually a metal clip or lever to release it."
+          },
+          {
+            "text": "Remove the Torx screws (usually T20 or T25) holding the module to the pump. Be careful not to strip them."
+          },
+          {
+            "text": "Gently pull the module straight off the pump. Be aware that some brake fluid may leak, so have rags ready."
+          },
+          {
+            "text": "If repairing, open the module's casing (often requires cutting or prying) and inspect the internal solder joints, especially those connecting the power pins. Re-solder any cracked or cold joints.",
+            "image_url": "https://www.bimmerforums.com/forum/attachment.php?s=35989caede81dcbe27dbc523e78a079a&attachmentid=264736&d=1224381167"
+          },
+          {
+            "text": "If replacing, install the new module onto the pump, ensuring the electrical connector is clean and dry."
+          },
+          {
+            "text": "Reinstall the Torx screws and reconnect the electrical connector."
+          },
+          {
+            "text": "Reconnect the battery. You may need to clear fault codes with a diagnostic tool."
+          },
+          {
+            "text": "Test drive the vehicle to ensure the ABS/ASC lights are off and the system functions correctly."
+          }
+        ]
+      },
+      "blower_motor_resistor_replacement": {
+        "id": "blower_motor_resistor_replacement",
+        "title": "Blower Motor Resistor (FSU) Replacement",
+        "description": "A guide to replacing the Final Stage Unit (FSU) or Blower Motor Resistor in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "1-2 hours",
+        "tools": [
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "8mm socket",
+          "Flashlight"
+        ],
+        "parts": [
+          "Blower Motor Resistor (Final Stage Unit - FSU)"
+        ],
+        "steps": [
+          {
+            "text": "The FSU is located behind the glovebox, on the passenger side footwell.",
+            "image_url": "http://lh3.ggpht.com/_86lz7nzpGDQ/TEur5bRSweI/AAAAAAAABiM/yDQNw3s20f8/FSU%20repair%201%20copy.jpg"
+          },
+          {
+            "text": "Disconnect the battery's negative terminal."
+          },
+          {
+            "text": "Remove the trim panel under the glovebox (usually held by a few Phillips screws)."
+          },
+          {
+            "text": "Locate the FSU. It's a black finned unit with an electrical connector and usually two 8mm nuts or screws holding it in place.",
+            "image_url": "http://lh6.ggpht.com/_86lz7nzpGDQ/TEur6UvpzGI/AAAAAAAABiU/SiquyIzYf90/FSU%20repair%204%20copy.jpg"
+          },
+          {
+            "text": "Disconnect the electrical connector from the FSU. This can be tricky due to limited space."
+          },
+          {
+            "text": "Remove the nuts/screws holding the FSU and carefully pull it out.",
+            "image_url": "http://lh5.ggpht.com/_86lz7nzpGDQ/TEur7LAJS6I/AAAAAAAABic/qXhzFNQn1KY/s640/FSU%20repair%206%20copy.jpg"
+          },
+          {
+            "text": "Install the new FSU, ensuring the electrical connector is securely attached.",
+            "image_url": "http://lh6.ggpht.com/_86lz7nzpGDQ/TEur8AsGSKI/AAAAAAAABik/dpRJoiaB8dQ/s640/FSU%20repair%209%20copy.jpg"
+          },
+          {
+            "text": "Reinstall the trim panel under the glovebox."
+          },
+          {
+            "text": "Reconnect the battery. Test the blower motor fan speeds to ensure proper operation."
+          }
+        ]
+      },
+      "convertible_top_microswitch_replacement": {
+        "title": "Convertible Top Micro-switch Adjustment/Replacement",
+        "difficulty": "Intermediate",
+        "time": "1-3 hours (depending on switch location)",
+        "tools": [
+          "T25 Torx tool",
+          "Wire cutters and strippers",
+          "Soldering iron and solder",
+          "Heat shrink tubing",
+          "Electrical tape",
+          "Small flathead screwdriver",
+          "Multimeter (optional, for testing)"
+        ],
+        "parts": [
+          "Replacement micro-switch (miniature microswitch with lever)"
+        ],
+        "steps": [
+          {
+            "text": "**Accessing the Micro Switch:** Partially open the convertible top to expose the switch housing. Locate the casing that houses the micro switch in the middle of the roof, just above the passenger window. Using a T25 Torx screwdriver, remove the screws securing the housing. Carefully detach the housing to reveal the micro switch inside.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch02.jpg"
+          },
+          {
+            "text": "**Removing the Old Switch:** Disconnect the wires leading to the switch, taking note of their positions. Remove the old micro switch from the housing. Compare the old switch with the new one to ensure compatibility."
+          },
+          {
+            "text": "**Modifying the New Switch (If Necessary):** If the lever on the new switch is shorter, you may need to transfer the lever from the old switch. Carefully remove the lever from the old switch using a small flathead screwdriver. Attach the old lever to the new switch using a strong adhesive, ensuring it's securely fastened.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch06.jpg"
+          },
+          {
+            "text": "**Preparing the Wiring:** Extend the wires if necessary by soldering on small lengths of wire. Use heat shrink tubing to insulate any soldered connections. Attach small spade terminals to the ends of the wires if required by the new switch.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch11.jpg"
+          },
+          {
+            "text": "**Installing the New Switch:** Place the new micro switch into the housing. Connect the wires to the appropriate terminals on the switch. Ensure the switch is seated correctly and the lever moves freely."
+          },
+          {
+            "text": "**Testing the New Switch:** Temporarily reconnect the housing to the car's electrical system. Test the convertible top operation, ensuring it opens and closes smoothly. Verify that the switch activates when the roof is fully closed.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch12.jpg"
+          },
+          {
+            "text": "**Reassembly and Final Adjustments:** Carefully reposition the housing and secure it with the Torx screws. Close the convertible top and observe the lever's interaction with the roof. Make any necessary adjustments to ensure the lever contacts the roof correctly when closed."
+          }
+        ],
+        "images": [
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch01.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch02.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch03.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch04.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch05.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch06.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch08.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch09.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch10.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch11.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch12.jpg",
+          "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch13.jpg"
+        ]
+      },
+      "window_regulator_repair": {
+        "title": "Window Regulator Repair",
+        "difficulty": "Intermediate",
+        "time": "2-4 hours",
+        "tools": [
+          "Torx bit set (T25, T50)",
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "Panel removal tools (plastic pry tools recommended)",
+          "Grease (lithium or silicone based)",
+          "10mm socket",
+          "Ratchet"
+        ],
+        "parts": [
+          "Window regulator repair kit (cables, clips, rollers)",
+          "New window regulator (if repair is not feasible)",
+          "New window glides (recommended)"
+        ],
+        "steps": [
+          {
+            "text": "Remove the door panel. This typically involves removing screws hidden under trim pieces, and then carefully prying the panel off."
+          },
+          {
+            "text": "Peel back the vapor barrier to access the inside of the door."
+          },
+          {
+            "text": "Disconnect the window motor electrical connector."
+          },
+          {
+            "text": "Carefully detach the window glass from the regulator clips and support the glass in the up position with tape."
+          },
+          {
+            "text": "Unbolt and remove the old window regulator assembly from the door."
+          },
+          {
+            "text": "If repairing, disassemble the old regulator and replace worn or broken cables, clips, and rollers. Lubricate all moving parts with appropriate grease."
+          },
+          {
+            "text": "Install the repaired or new window regulator assembly into the door."
+          },
+          {
+            "text": "Reattach the window glass to the regulator clips."
+          },
+          {
+            "text": "Reconnect the window motor electrical connector."
+          },
+          {
+            "text": "Test the window operation before reinstalling the vapor barrier and door panel. Ensure smooth movement and proper sealing."
+          },
+          {
+            "text": "Reinstall the vapor barrier and door panel."
+          },
+          {
+            "text": "**Detailed steps for removing window lifter mechanism motor (if needed):** First, remove the front 10mm screw/bolt in the base of the door - nearest the engine.",
+            "image_url": "https://zroadster.org/attachments/dsc_1810-jpg.36351/"
+          },
+          {
+            "text": "Then, the two 10mm screws/bolts on the inside of the door where the electric mirror control would be (roughly speaking).",
+            "image_url": "https://zroadster.org/attachments/dsc_1816-jpg.36347/"
+          },
+          {
+            "text": "Then, with a good wiggle the front smaller (quarter) glass will pull up and out, it is very tight at the end.",
+            "image_url": "https://zroadster.org/attachments/dsc_1817-jpg.36346/"
+          },
+          {
+            "text": "Then, the main body of glass (part that goes up and down when using the electric windows) slides forwards (towards the front of the car) and lifts out quite easily.",
+            "image_url": "https://zroadster.org/attachments/dsc_1818-jpg.36345/"
+          },
+          {
+            "text": "Then remove the four 10mm nuts that hold the scissor style lifter/mechanism. The central one is the one that had snapped off of the door strengthening impact bar on my coupe and needed re-welding to the body of the door - the failure of which led to the mechanism repeated fouling until it broke.",
+            "image_url": "https://zroadster.org/attachments/dsc_1814-jpg.36348/"
+          },
+          {
+            "text": "There are two 'push and pull' electrical connectors on the motor, beneath the wing mirror mounting point at the front edge of the door to remove.",
+            "image_url": "https://zroadster.org/attachments/dsc_1826-jpg.36338/"
+          },
+          {
+            "text": "Then, with a lot of swearing and scraping of knuckles the mechanism can be removed. It might be easier to take it out with the motor in the 'down' position.",
+            "image_url": "https://zroadster.org/attachments/dsc_1827-jpg.36337/"
+          }
+        ]
+      },
+      "cooling_system_overhaul": {
+        "id": "cooling_system_overhaul",
+        "title": "Cooling System Overhaul (Radiator, Hoses, Thermostat)",
+        "description": "A comprehensive guide to overhauling the cooling system in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "4-6 hours",
+        "tools": [
+          "Drain pan",
+          "Pliers",
+          "Screwdrivers",
+          "Socket set",
+          "Torque wrench",
+          "Hose clamp pliers (recommended)",
+          "T25 Torx tool",
+          "Wire cutters and strippers",
+          "Soldering iron and solder",
+          "Heat shrink tubing",
+          "Electrical tape",
+          "Small flathead screwdriver",
+          "Multimeter (optional, for testing)"
+        ],
+        "parts": [
+          "Radiator",
+          "Upper and lower radiator hoses",
+          "Thermostat and housing (aluminum recommended)",
+          "Expansion tank and cap",
+          "Water pump (if not recently replaced)",
+          "Coolant (BMW G48 spec)",
+          "Distilled water",
+          "Replacement micro-switch (miniature microswitch with lever)"
+        ],
+        "steps": [
+          {
+            "text": "Ensure the engine is completely cold."
+          },
+          {
+            "text": "Place a large drain pan under the radiator. Open the radiator drain plug and the engine block drain plug (if applicable) to drain all coolant."
+          },
+          {
+            "text": "Remove the fan shroud and mechanical fan (if equipped)."
+          },
+          {
+            "text": "Disconnect the upper and lower radiator hoses from the radiator and engine."
+          },
+          {
+            "text": "Remove the radiator mounting bolts and carefully lift out the old radiator.",
+            "image_url": "https://cdn-illustrations.revolutionparts.io/strapr1/b0df23693e2d90324c016ba17e67bd0e/a37becf9f3d1c4fbef2128332f18c6bb.png"
+          },
+          {
+            "text": "Remove the old thermostat and housing from the engine."
+          },
+          {
+            "text": "Remove the expansion tank and any remaining coolant hoses.",
+            "image_url": "https://cdn-illustrations.revolutionparts.io/strapr1/4ae9e149307bc55215e8b2bfe950d120/049adccc543c7472a1b568eff79adcab.png"
+          },
+          {
+            "text": "Install the new radiator, ensuring it is securely mounted."
+          },
+          {
+            "text": "Install the new thermostat and housing, using a new gasket and torquing to spec.",
+            "image_url": "https://cdn-illustrations.revolutionparts.io/strapr1/b0df23693e2d90324c016ba17e67bd0e/4e4bd72c28b56ef27a5c96f07cbb7ef8.png"
+          },
+          {
+            "text": "Install all new coolant hoses, securing them with new hose clamps."
+          },
+          {
+            "text": "Install the new expansion tank and cap.",
+            "image_url": "https://cdn-illustrations.revolutionparts.io/strapr1/606296a15b867e593005132c8db09788/a66795b4c8f11baabf90c68ad4becda9.png"
+          },
+          {
+            "text": "If replacing the water pump, do so now (refer to water pump replacement guide)."
+          },
+          {
+            "text": "Close all drain plugs. Refill the system with a 50/50 mix of BMW G48 coolant and distilled water. Bleed the system thoroughly (refer to coolant system bleeding procedure guide)."
+          },
+          {
+            "text": "Start the engine and allow it to reach operating temperature, monitoring for leaks and proper fan operation. Top off coolant as needed."
+          }
+        ]
+      },
+      "convertible_top_motor_relocation": {
+        "id": "convertible_top_motor_relocation",
+        "title": "Convertible Top Motor Relocation/Replacement",
+        "description": "A guide to relocating or replacing the convertible top hydraulic motor in your BMW Z3.",
+        "difficulty": "Advanced",
+        "time": "4-8 hours",
+        "tools": [
+          "Socket set",
+          "Wrench set",
+          "Pliers",
+          "Torx bit set",
+          "Fluid pump (for refilling hydraulic fluid)",
+          "Clean rags",
+          "Flashlight",
+          "10mm screw/bolt",
+          "T25 Torx tool",
+          "T50 Torx tool",
+          "Wire cutters",
+          "Soldering iron",
+          "Heat shrink tubing",
+          "Electrical tape",
+          "Small flathead screwdriver",
+          "Multimeter (optional)"
+        ],
+        "parts": [
+          "Replacement convertible top hydraulic motor (if replacing)",
+          "ATF fluid (for hydraulic system)",
+          "Mounting bracket and hardware (for relocation)",
+          "Extended wiring and hydraulic lines (for relocation)",
+          "New microswitch (if replacing)"
+        ],
+        "steps": [
+          {
+            "text": "**Accessing the Motor:** Partially open the convertible top to expose the switch housing. Locate the casing that houses the micro switch in the middle of the roof, just above the passenger window. Using a T25 Torx screwdriver, remove the screws securing the housing. Carefully detach the housing to reveal the micro switch inside.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch02.jpg"
+          },
+          {
+            "text": "Disconnect the wires leading to the switch, taking note of their positions. Remove the old micro switch from the housing. Compare the old switch with the new one to ensure compatibility."
+          },
+          {
+            "text": "If the lever on the new switch is shorter, you may need to transfer the lever from the old switch. Carefully remove the lever from the old switch using a small flathead screwdriver. Attach the old lever to the new switch using a strong adhesive, ensuring it's securely fastened.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch06.jpg"
+          },
+          {
+            "text": "Extend the wires if necessary by soldering on small lengths of wire. Use heat shrink tubing to insulate any soldered connections. Attach small spade terminals to the ends of the wires if required by the new switch.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch11.jpg"
+          },
+          {
+            "text": "Place the new micro switch into the housing. Connect the wires to the appropriate terminals on the switch. Ensure the switch is seated correctly and the lever moves freely."
+          },
+          {
+            "text": "Temporarily reconnect the housing to the car's electrical system. Test the convertible top operation, ensuring it opens and closes smoothly. Verify that the switch activates when the roof is fully closed.",
+            "image_url": "https://zroadster.org/wp-content/uploads/2012/05/g8kjahoodmicroswitch12.jpg"
+          },
+          {
+            "text": "Carefully reposition the housing and secure it with the Torx screws. Close the convertible top and observe the lever's interaction with the roof. Make any necessary adjustments to ensure the lever contacts the roof correctly when closed."
+          },
+          {
+            "text": "**Removing the Motor:** Disconnect the battery's negative terminal."
+          },
+          {
+            "text": "Access the convertible top motor. In early Z3s, it's located in a well on the passenger side of the trunk, prone to water ingress. Later models may have it in a more protected location.",
+            "image_url": "https://zroadster.org/proxy.php?image=http%3A%2F%2Fi685.photobucket.com%2Falbums%2Fvv218%2FArdchyle%2FDSCN0949-1.png%7Eoriginal&hash=456b53ad1d230e41a42dc8c6ba8e391a"
+          },
+          {
+            "text": "Carefully disconnect the electrical connector and hydraulic lines from the motor. Be prepared for some fluid leakage."
+          },
+          {
+            "text": "Remove the old motor from its mounting."
+          },
+          {
+            "text": "If relocating, prepare the new mounting location (e.g., behind the passenger seat or in the spare tire well) and route extended wiring and hydraulic lines."
+          },
+          {
+            "text": "Install the new or relocated motor, securing it firmly with appropriate brackets and hardware.",
+            "image_url": "https://zroadster.org/proxy.php?image=http%3A%2F%2Fstatic.bmwfans.info%2Fimages%2Fepc%2FODk2MV9w.png&hash=8417d30dcf98b636293065d9306a20a4"
+          },
+          {
+            "text": "Reconnect the electrical connector and hydraulic lines. Ensure all connections are tight."
+          },
+          {
+            "text": "Refill the hydraulic reservoir with ATF fluid. Bleed the system by cycling the top up and down several times, topping off fluid as needed."
+          },
+          {
+            "text": "Reconnect the battery. Test the convertible top operation thoroughly, ensuring smooth and complete cycles."
+          },
+          {
+            "text": "Check for any fluid leaks."
+          }
+        ]
+      },
+      "door_panel_speaker_replacement": {
+        "id": "door_panel_speaker_replacement",
+        "title": "Door Panel Removal and Speaker Replacement",
+        "description": "A guide to removing the door panel and replacing speakers in your BMW Z3.",
+        "difficulty": "Beginner to Intermediate",
+        "time": "1-2 hours per door",
+        "tools": [
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "Torx bit set (T20)",
+          "Panel removal tools (plastic pry tools recommended)",
+          "Wire cutters/strippers (for speaker wiring)",
+          "Crimping tool (for speaker wiring)"
+        ],
+        "parts": [
+          "Replacement speakers (if upgrading)",
+          "Speaker wire connectors (if needed)",
+          "Sound deadening material (optional)",
+          "Door panel clips (recommended to have spares)",
+          "Vapor barrier sealant (if removing vapor barrier)"
+        ],
+        "steps": [
+          {
+            "text": "Lower the window on the door you are removing the door panel on."
+          },
+          {
+            "text": "Using a plastic prying tool, gently lever out the power mirror switch.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic01.jpg"
+          },
+          {
+            "text": "Once the mirror switch has been removed, disconnect the electrical connector by pulling straight out of the switch.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic02.jpg"
+          },
+          {
+            "text": "Working inside of the power mirror switch mounting hole, remove the T20 Torx screw.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic03.jpg"
+          },
+          {
+            "text": "Then, using a plastic prying tool, lever the door handle trim piece to unlock the mounting tabs.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Using a door panel clip tool, release the door panel clips. Start at the lower corner, then work your way around the door panel, releasing all other clips.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic06.jpg"
+          },
+          {
+            "text": "Once the door panel clips have been disconnected, pull the top of the door panel off the door. Start at the outer edge of the door and work your way toward the interior.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic07.jpg"
+          },
+          {
+            "text": "Pull the door panel back enough to access the electrical connectors. Pull the connectors straight apart to disconnect. You can now service items behind the door panel and repair as needed. When installing, reverse the order of removal instructions. Be sure to replace any damaged door panel clips. Properly route all wiring as before.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic08.jpg"
+          }
+        ],
+        "images": [
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic01.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic02.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic03.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic04.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic05.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic06.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic07.jpg",
+          "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/71-BODY-Door_Panel_Replacement/images_med/pic08.jpg"
+        ]
+      },
+      "power_steering_fluid_flush": {
+        "id": "power_steering_fluid_flush",
+        "title": "Power Steering Fluid Flush",
+        "description": "A guide to changing the power steering fluid in your BMW Z3.",
+        "difficulty": "Medium",
+        "time": "1-2 hours",
+        "tools": [
+          "Recommended power steering fluid (Dexron III ATF)",
+          "Syringe or fluid extractor",
+          "Container for old fluid",
+          "Rubber cap or plug for hose",
+          "Funnel",
+          "Paper towels/rags",
+          "Jack and jack stands (optional, but recommended)"
+        ],
+        "parts": [
+          "Power steering fluid (Dexron III ATF)"
+        ],
+        "steps": [
+          {
+            "text": "Lift both front wheels with a jack and secure with jack stands, so that there are a few centimeters between them and the floor. This step is not mandatory, but it makes this process easier.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "Remove the power steering fluid reservoir cap and use a syringe or fluid extractor to remove as much of the old fluid as possible from the reservoir."
+          },
+          {
+            "text": "Locate the low-pressure (return) hose on the power steering reservoir. It is usually the thinner one or the one that is plugged sideways. Place the end of this hose into your container for old fluid. (Warning: If you disconnect the wrong hose, when you turn the wheel, the unplugged hose will suck fluid instead of discharging it. If this happens, disconnect the other hose.)"
+          },
+          {
+            "text": "Use a rubber cap or plug to cover the open port on the reservoir where the return hose was connected."
+          },
+          {
+            "text": "Add new power steering fluid to the reservoir using a funnel until the reservoir is full."
+          },
+          {
+            "text": "Start the engine. Turn the steering wheel all the way to the left and then all the way to the right a few times. This will circulate the new fluid and push the old fluid out through the disconnected return hose into your waste container."
+          },
+          {
+            "text": "As the fluid level in the reservoir decreases, continue to refill it with new fluid."
+          },
+          {
+            "text": "Continue this process until you see clean, new fluid coming out of the return hose into your waste container. This indicates that the system has been flushed."
+          },
+          {
+            "text": "Turn off the engine. Remove the rubber cap/plug from the reservoir port and reconnect the return hose securely. Ensure all clamps are tight."
+          },
+          {
+            "text": "Fill the power steering reservoir to the correct level (between MIN and MAX marks on the dipstick, or 10mm above MAX when hot)."
+          },
+          {
+            "text": "Remove the jack stands and lower the car."
+          },
+          {
+            "text": "Check for any leaks and test the steering."
+          }
+        ]
+      },
+      "door_lock_actuator_replacement": {
+        "id": "door_lock_actuator_replacement",
+        "title": "Door Lock Actuator Replacement",
+        "description": "A guide to replacing the door lock actuator in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3-4 hours per door",
+        "tools": [
+          "T20 & T30 Torx bits",
+          "Phillips head screwdriver",
+          "Flathead screwdriver",
+          "Trim panel removal tools",
+          "10mm socket",
+          "Mirror or endoscope (optional, but helpful)",
+          "Flashlight",
+          "Wire cutters/strippers",
+          "Crimping tool"
+        ],
+        "parts": [
+          "Replacement door lock actuator",
+          "Door panel clips (recommended to have spares)",
+          "Nylon grommets for door rods (recommended to have spares)",
+          "Loctite 272 (optional)",
+          "Dry film lubricant (optional)"
+        ],
+        "steps": [
+          "Roll up the window completely.",
+          "Disconnect the negative terminal of the car battery.",
+          "Remove the door panel. This typically involves: a) pulling out remote mirror controls and disconnecting wiring (if present), b) unscrewing the armrest screw, c) unsnapping body trim clips around the bottom and sides of the door panel, d) lifting the panel upwards to disengage it from the window sill, e) disconnecting any electrical connectors (window switches, door lock switch, speaker wires).",
+          "Peel back the vapor barrier to access the inside of the door.",
+          "Unscrew the inner door handle and unclip the control rod from the handle. Remove the inner door handle.",
+          "Remove the window guide: a) at the top of the door jamb face, lift the triangular rubber cap and remove the Torx screw, b) at the bottom of the door, remove the 10mm hex bolt, c) slide the window guide down and toward the middle of the door and remove from the door.",
+          "Remove the door latch mechanism: a) on the door jamb face, remove the two Torx screws near the latch mechanism, b) on the inside face of the door, remove the Torx screw (possibly black with a yellow stripe), c) carefully disconnect the two connectors to the top and left of the latch mechanism (almost to the top of the door) that connect to the outside handle. The top one slides down and out of the keyway, while the bottom connector has a small rod attached to it. Lift the outside door handle and rotate the rod out of the clip, then pull the rod out of the center of the connector. This part is often done by feel. d) Slightly rotate the mechanism and slide it down until you can get it to the door opening. e) There may be a wire clipped in two places on this mechanism; remove it from the clips (pry them slightly open and pull the wire out) but do not disconnect the wire.",
+          "Replace the lock actuator: a) Remove the electrical connector from the old actuator. b) Unclip the actuator from the side. c) Align the new actuator with the levers. d) Replace the electrical connector on the actuator.",
+          "Reassemble the door in reverse order. Ensure all rods and cables are correctly connected and routed. Lubricate mechanisms with a dry film lubricant.",
+          "Before fully reassembling, test the door lock and latch function with the door open. Use a screwdriver to simulate the door closing and ensure it latches and unlatches correctly with both inside and outside handles, and that the power lock functions.",
+          "Reinstall the vapor barrier and door panel, ensuring all clips are secure and screws are tightened. Reconnect the battery.",
+          "Test all door functions (windows, locks, speakers) before fully closing the door."
+        ],
+        "image_url": ""
+      },
+      "heater_control_valve_replacement": {
+        "id": "heater_control_valve_replacement",
+        "title": "Heater Control Valve Replacement",
+        "description": "A guide to replacing the heater control valve in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "2 hours",
+        "tools": [
+          "Socket set",
+          "Screwdrivers",
+          "Multi-meter (for testing)",
+          "Hose clamp pliers (recommended)"
+        ],
+        "parts": [
+          "Heater control valve",
+          "Heater hoses (optional, if old/cracked)",
+          "Engine coolant (BMW G48 spec)"
+        ],
+        "steps": [
+          "Ensure the engine is cool before starting.",
+          "Locate the heater control valve at the left side of the firewall, above the heater hoses.",
+          "To access the valve, remove the E-box seal from the right side engine compartment.",
+          "Unclip the plastic harness retainer (eight clips) and remove it from the E-box.",
+          "Remove the wiring harnesses from their mounting points to move the plastic junction out of the way.",
+          "Remove the two 10mm nuts for the wiring harness junction mount and remove the mount from the firewall.",
+          "Cut the wire tie securing the harness to the firewall at the right side bulkhead.",
+          "Use a bungee cord or rope to pull the plastic junction toward the radiator support and out of your way.",
+          "Drain the cooling system. (Refer to cooling system draining and filling guide if available). Alternatively, clamp off the heater hoses using hose clamp pliers to minimize coolant loss.",
+          "At the heater control valve, squeeze both release tabs and pull the electrical connector straight off to remove.",
+          "Pull the heater valve out of its mount. Pull the bottom out first, then remove the top pin from the rubber grommet. Be careful not to lose the rubber mounting pieces.",
+          "Loosen both heater hoses from the heater valve and remove the hoses from the valve.",
+          "Install the hoses onto the new heater control valve.",
+          "Install the new heater control valve into its mount and connect the electrical connector.",
+          "Install the wiring harness and replace any cut zip ties.",
+          "Install the hoses and tighten the fasteners.",
+          "Fill and bleed the cooling system. Once complete, double check all hose connections and check the engine for coolant leaks.",
+          "Test the heater control valve: The valve is normally open (allowing coolant to flow to the heater core) and closed when the temp setting is on COLD. If you have no heat and the cooling system is properly bled, the valve may be stuck closed. If you have heat all the time, the valve may be stuck open. You can test the electrical signal to the valve using a multi-meter. The brown wire is typically a constant ground and the blue wire is the battery volt control from the HVAC control head. With the ignition in the RUN position, rotate the HVAC temperature control to full hot; your DVOM should read Zero volts across the terminals. Rotate the HVAC temperature control to full cold; your DVOM should read BATTERY volts. If you are missing a voltage signal, check the ground and the battery volts signal back to the HVAC control head."
+        ],
+        "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/32-WATER-Heater_Control_Valve_Replacement/images_large/pic01.jpg"
+      },
+      "rear_shock_mount_replacement": {
+        "id": "rear_shock_mount_replacement",
+        "title": "Rear Shock Mount Replacement",
+        "description": "A guide to replacing the rear shock mounts in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3 hours",
+        "tools": [
+          "Socket set",
+          "16mm and 6mm wrenches",
+          "Flathead screwdriver",
+          "Trim panel tool",
+          "Hydraulic jack",
+          "Jack stands",
+          "Vise grips (optional)"
+        ],
+        "parts": [
+          "Rear shock mounts (recommended to replace in pairs)",
+          "Rear shocks (optional, but recommended to replace with mounts)"
+        ],
+        "steps": [
+          {
+            "text": "**Preparation:** Loosen the rear wheel bolts but do not remove them. Raise the rear of the vehicle using a hydraulic jack and support it safely on jack stands. Ensure the vehicle is as high as possible. Secure the front wheels with chocks."
+          },
+          {
+            "text": "Remove the rear wheels if desired, or leave them on and jack under the trailing arm or tire."
+          },
+          {
+            "text": "**Access the Upper Shock Mount (Roadster):** Working in the passenger cabin behind the seats at the convertible top compartment, locate the trim panel clips. Remove all four trim clips by levering them out using a trim panel tool. Peel back the carpet to expose the two 13mm shock mount nuts.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "**Access the Upper Shock Mount (Coupe):** For coupe models, the shock mount nuts are accessed from the trunk. Remove any rubber caps covering the shock mount. Clean the fasteners of the upper shock mount with a wire brush and WD-40."
+          },
+          {
+            "text": "Loosen and remove the two 13mm upper shock mount fasteners.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "**Remove the Lower Shock Mount:** Support the trailing arm with a hydraulic jack. Clean the lower shock absorber fasteners. Unscrew the 18mm lower fastener of the shock absorber.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "**Remove the Shock Absorber and Mount:** Lower the shock absorber and remove it from the vehicle. Once the shock is removed, grip it in a vise. Using vise grips and a 16mm or 17mm wrench, remove the shock mount from the shock. Pay close attention to the order and orientation of washers and other small parts, as you'll need them for the new mount. Remove the old shock mount, boot, and bump stop. Examine them and replace if necessary.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "**Install the New Shock Mount:** Install the new rubber cap onto the new shock (if applicable). Install the new mount, boot, and bump stop onto the shock absorber, ensuring the correct order and orientation of all components. Screw the shock strut piston rod upper fastening and tighten it to 14 Nm (10 ft-lb) or 20 Nm, depending on the source.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "**Reinstall the Shock Absorber:** Clean the shock absorber mounting seats. Place the shock absorber back into the wheel arch, aligning the upper mount studs. Insert the lower fastener loosely to hold the assembly in place. Install the upper shock mount fasteners and tighten them to 24 Nm (17 ft-lb) or 28 Nm.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Rear_Shock_Mount_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "Tighten the lower shock fastener with the vehicle suspension loaded (i.e., with the jack supporting the trailing arm) to 100 Nm (74 ft-lbs)."
+          },
+          {
+            "text": "**Final Steps:** Reinstall the rear wheel and lower the vehicle to the ground. Tighten the wheel bolts to the specified torque (120 Nm). Reinstall interior trim. Test drive the vehicle and recheck the lower shock fasteners tightening torque."
+          }
+        ]
+      },
+      "front_control_arm_bushing_replacement": {
+        "id": "front_control_arm_bushing_replacement",
+        "title": "Front Control Arm Bushing Replacement",
+        "description": "A guide to replacing the front control arm bushings in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "2 hours",
+        "tools": [
+          "Socket set (16mm, 18mm)",
+          "Soft faced hammer",
+          "Pickle fork (optional)",
+          "Dremel (optional, for cutting old bushing)",
+          "Hydraulic jack",
+          "Jack stands",
+          "Tire lube or dish soap",
+          "Ratchet strap (optional, for pressing new bushing)"
+        ],
+        "parts": [
+          "Front control arm bushings (replace in pairs)"
+        ],
+        "steps": [
+          "Raise and support the front of the vehicle on jack stands.",
+          "Working at the rear of the front control arm, remove the two 17mm control arm bushing fasteners.",
+          "Pull the bushing down and away from the vehicle body.",
+          "Remove the old bushing from the control arm. This can be done by pulling it off, or by cutting it off with a hacksaw or Dremel tool. Be careful not to cut the control arm.",
+          "In the bushing bracket, note the position of the arrow and tang. Be sure to align these marks when pressing the new bushing in.",
+          "Apply a liberal amount of tire lube or dish soap to the inside of the new bushing.",
+          "Slide the new bushing onto the control arm. If needed, tap it on with a soft-faced hammer or use a ratchet strap to pull it on.",
+          "Install the bushing fasteners and tighten. Be sure to properly align the bushing to the body using the alignment tabs.",
+          "Lower the vehicle and test drive."
+        ],
+        "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/66-SUSPEN-Front_Control_Arm_Bushing_Replacement/images_large/pic01.jpg"
+      },
+      "front_control_arm_replacement": {
+        "id": "front_control_arm_replacement",
+        "title": "Front Control Arm Replacement",
+        "description": "A guide to replacing the front control arm in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3 hours",
+        "tools": [
+          "Socket set",
+          "Soft faced hammer",
+          "Ball joint separator (optional)",
+          "Vise grips (optional)",
+          "Hydraulic jack",
+          "Jack stands"
+        ],
+        "parts": [
+          "Front control arm (recommended to replace in pairs)",
+          "Control arm bushing (if not included with new control arm)"
+        ],
+        "steps": [
+          {
+            "text": "Raise and support the front of the vehicle on jack stands.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "Remove the front wheel from the side of the vehicle you are replacing the control arm on.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "Loosen the sway bar end link bushing bolt (13mm nut while counter-holding the 13mm bolt). Just loosen it a few turns. Then remove the 16mm nut for the sway bar end link mounting bracket. This part has to be transferred over to the new control arm. The nut is accessed from the bottom of the control arm.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "Loosen the ball joint 18mm nut (nut size may vary if it is not a BMW ball joint).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "Using a ball joint separator, separate the ball joint from the steering knuckle. If you don't have a ball joint separator, you can hit the spindle with a hammer to break the ball joint loose. If using this method, be careful not to mistakenly hit the wrong component. Once loose, remove the nut from the ball joint.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "If the ball joint is spinning when you are trying to remove the nut, use a thin jaw pair of vise grips to grab the ball joint shaft while loosening the nut.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "Working at the rear of the front control arm, remove the two 17mm control arm bushing fasteners.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "Pull the bushing down and away from the vehicle body.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "Working at the subframe, remove the inner ball joint 22mm nut. (Nut size may vary).",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic07.jpg"
+          },
+          {
+            "text": "Knock the ball joint out of the subframe using a hammer. To do this, hit the control arm in the area of the ball joint. Since you are replacing the control arm, it does not matter if you mar it. Support the control arm, be prepared for it to fall out of the vehicle. Then remove control arm from vehicle.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "When installing the new control arm: first, install the subframe ball joint nut finger tight. Then install the ball joint at the steering knuckle. When tightening the subframe ball joint, it may be necessary to place a jack under the ball joint to stop the stud from rotating.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "Next, tighten the steering knuckle ball joint nut.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "Apply a liberal amount of tire lube or dish soap to the inside of the bushing, assuming you are replacing the bushing. Then tap the bushing onto the control arm using a soft-faced hammer.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "Install the bushing fasteners and tighten. Be sure to properly align the bushing to the body using the alignment tabs.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "If you have uneven tire wear, have your vehicle professionally aligned after this procedure.",
+            "image_url": "https://cdn4.pelicanparts.com/BMW/techarticles/BMW-Z3/67-SUSPEN-Front_Control_Arm_Replacement/images_large/pic08.jpg"
+          }
+        ],
+        "image_url": ""
+      },
+      "differential_bushing_replacement": {
+        "id": "differential_bushing_replacement",
+        "title": "Differential Bushing Replacement",
+        "description": "A guide to replacing the differential bushing in your BMW Z3.",
+        "difficulty": "Advanced",
+        "time": "3-5 hours",
+        "tools": [
+          "Socket set",
+          "Wrench set",
+          "Torque wrench",
+          "Press or shop press (for bushing removal/insertion)",
+          "Jack and jack stands",
+          "Drain pan",
+          "Fluid pump (if changing differential fluid)"
+        ],
+        "parts": [
+          "Differential bushing",
+          "New bolt and self-locking nut (recommended for differential rear mount to body)",
+          "Differential fluid (if changing)",
+          "Gasket for differential cover (if removing cover)"
+        ],
+        "steps": [
+          {
+            "text": "**Preparation:** Safely lift the rear of the vehicle and support it securely on jack stands. Ensure the vehicle is as high as possible to allow for working clearance. Support the differential with a second jack or transmission jack.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-1-jpg.60000/"
+          },
+          {
+            "text": "Consider removing the spare tire carrier for better access to the differential, if applicable.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-2-jpg.60001/"
+          },
+          {
+            "text": "**Accessing the Bushing:** The differential bushing is located in the differential cover. Many guides suggest removing the differential cover to work on the bushing outside the car and to drain/refill the differential fluid. If removing the differential cover, be prepared for differential fluid to drain out. You will need new differential oil and a new paper gasket for the cover.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-3-jpg.60002/"
+          },
+          {
+            "text": "Place a drain pan under the differential. Using a 14mm Allen bit, remove the differential oil drain plug. Allow oil to drain completely. Reinstall the drain plug with a new gasket and torque to 70 Nm (52 ft-lb).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic04.jpg"
+          },
+          {
+            "text": "Remove the bolts holding the differential cover to the differential housing. Carefully remove the differential cover. Be prepared for residual fluid to drain.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-4-jpg.60003/"
+          },
+          {
+            "text": "**Bushing Removal:** With the differential cover removed, you can now access the old bushing. The old rubber bushing can often be pried out using a large screwdriver or pry bar. The metal ring surrounding the rubber in the bush may need to be cut with a hacksaw or reciprocating saw to aid removal. Alternatively, a press is typically needed to remove the old bushing. If you don't have a press, a machine shop can usually press it out for you.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-5-jpg.60004/"
+          },
+          {
+            "text": "Clean the bushing bore thoroughly, removing any rust or debris.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-6-jpg.60005/"
+          },
+          {
+            "text": "**Bushing Installation:** If using a solid rubber bushing, mark the position of the old bushing before removal, as the new bushing needs to be positioned correctly. If using a polyurethane bushing, some types come in multiple parts and can be pushed in by hand. Apply a suitable lubricant to the new bushing and the bore.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-7-jpg.60006/"
+          },
+          {
+            "text": "Press in the new differential bushing. Ensure it is correctly oriented according to any alignment marks. If using a press, apply even pressure. If installing a multi-piece polyurethane bushing, ensure all parts are seated correctly.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-8-jpg.60007/"
+          },
+          {
+            "text": "**Reassembly:** Apply gasket sealant to the differential cover face and then attach the new paper gasket. Reinstall the differential cover, torquing the bolts to specification (refer to your Bentley manual for specific torque for your model).",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-9-jpg.60008/"
+          },
+          {
+            "text": "Refill the differential with the appropriate fluid (1-2 quarts of 75W-90 gear oil, check for LSD requirements). Pump oil into the fill plug hole until it runs out. Allow oil to stop dripping or come to a slow drip, then reinstall the fill plug with a new gasket and torque to 70 Nm (52 ft-lb).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/05-TRANS-DRIVE-AXLES-Rear_Differential_Fluid_Replacement/images_med/pic05.jpg"
+          },
+          {
+            "text": "Raise the differential back into position and align it with the mounting points. Install the bolts and nuts, torquing the differential rear mount to body (M12) to 57 ft-lb. Use new bolts and self-locking nuts as recommended.",
+            "image_url": "https://zroadster.net/forum/attachments/diff-bushing-replacement-10-jpg.60009/"
+          },
+          {
+            "text": "Lower the car and test drive. Listen for any clunking noises and check for leaks."}
+        ],
+        "image_url": ""
+      },
+      "oxygen_sensor_replacement": {
+        "id": "oxygen_sensor_replacement",
+        "title": "Oxygen Sensor Replacement",
+        "description": "A guide to replacing oxygen sensors in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "2-3 hours",
+        "tools": [
+          "Oxygen sensor socket (22mm)",
+          "22mm wrench (if no oxygen sensor socket)",
+          "Flathead screwdriver"
+        ],
+        "parts": [
+          "Oxygen sensors (pre-catalyst and/or post-catalyst)",
+          "Anti-seize paste"
+        ],
+        "steps": [
+          {
+            "text": "**Safety First:** Always work on a cool exhaust system to avoid burns. Disconnect the car's battery before starting work."
+          },
+          {
+            "text": "**Locate the Sensor:** Identify the oxygen sensor(s) you need to replace. Their locations vary depending on whether they are pre- or post-catalyst and your Z3's engine (4-cylinder or 6-cylinder). For pre-catalyst sensors on some 6-cylinder models, the electrical connectors might be mounted below the valve cover or at the transmission bell housing. For post-catalyst sensors, the connector is often mounted to the heat shield near the catalytic converter.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/10-FUEL-Oxygen_Sensor_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "**Access and Disconnect Electrical Connector:** Remove any mounting brackets or clips holding the electrical connector and wiring harness. Carefully pull apart the electrical connector. On 6-cylinder models, it's advisable to label or mark connectors if replacing multiple sensors to avoid mixing them up during reinstallation.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/10-FUEL-Oxygen_Sensor_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "**Remove Old Sensor:** Use an oxygen sensor socket (22mm) or a 22mm box-end wrench to remove the old sensor from the exhaust. Be prepared for it to be tight. If the sensor is seized, applying penetrating fluid like WD40 and letting it sit overnight, or briefly running the car to heat the exhaust, can help.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/10-FUEL-Oxygen_Sensor_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "**Prepare New Sensor:** Remove the protector cap from the new sensor just before installation. Lightly coat the new oxygen sensor's threads with anti-seize compound. Ensure the compound does not get on the sensor tip."
+          },
+          {
+            "text": "**Install New Sensor:** Install the new oxygen sensor by hand, ensuring the lead wire is not twisted or bent. Tighten the new oxygen sensor to **50 Nm (37 ft-lb)**.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/10-FUEL-Oxygen_Sensor_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "**Reconnect Wiring:** Reroute the wiring harness and connect the electrical connector. Ensure the new O2 sensor wires are routed through the same clips as the old ones to prevent them from touching hot engine parts."
+          },
+          {
+            "text": "**Reassemble and Test:** Reassemble any engine covers or heat shields that were removed. Reconnect the car's battery. Use a BMW scan tool to clear any engine fault codes. Test drive the vehicle to ensure proper operation and that no fault codes return."
+          }
+        ],
+        "image_url": ""
+      },
+      "oil_filter_housing_gasket_replacement": {
+        "id": "oil_filter_housing_gasket_replacement",
+        "title": "Oil Filter Housing Gasket Replacement",
+        "description": "A guide to replacing the oil filter housing gasket (OFHG) in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3 hours",
+        "tools": [
+          "Socket set",
+          "Wrench set",
+          "Screwdrivers",
+          "Oil filter socket",
+          "Plastic scraper",
+          "Drain pan"
+        ],
+        "parts": [
+          "Oil filter housing gasket",
+          "Oil filter (recommended)",
+          "Engine oil (recommended)",
+          "Pressure relief valve O-rings (recommended)",
+          "VANOS oil line sealing washers (for 6-cylinder models)",
+          "RTV (silicone sealant, small amount for specific areas)"
+        ],
+        "steps": [
+          {
+            "text": "**Preparation:** Ensure the engine is cool before starting. Jack up the front of the vehicle (for 4-cylinder models) and place an oil drain pan under the left side of your vehicle."
+          },
+          {
+            "text": "Loosen the oil filter housing lid with a 36mm socket until you can see the sealing O-ring. This allows oil to drain from the housing into the oil pan.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/54-BASICS-Changing_Engine_Oil/images_large/pic01.jpg"
+          },
+          {
+            "text": "**Disassembly (4-cylinder models):** Loosen the three 13mm power steering pulley bolts. Remove the engine drive belt from the alternator and power steering pulley. Remove the alternator. Remove the pulley from the power steering pump. Remove the two 13mm power steering mounting fasteners and lift the power steering pump up and off the engine. Disconnect the oil pressure sensor electrical connector. Remove the alternator bracket bolts (note different lengths). Remove the six 10mm fasteners for the oil filter housing.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "**Disassembly (6-cylinder models):** Remove power steering reservoir mounting fasteners and move reservoir toward left side headlight. Pull evaporative emission purge solenoid off mounting bracket. Disconnect oil sensor electrical connectors. Using a 36mm socket, loosen oil filter housing lid until you can see sealing O-ring. Using a 19mm wrench, remove VANOS oil line (below oil filter housing). Cover line and opening to prevent dirt. Remove three 13mm power steering pump fasteners (note different lengths). Push power steering pump down and away from oil filter housing bracket. Remove six 13mm oil filter housing fasteners (note different lengths).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "Pull the oil filter housing away from the engine and remove.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "**Cleaning and Gasket Replacement:** Thoroughly clean the sealing surface of the oil filter housing and the crankcase. Use a plastic scraper; do not use a metal scraper or razor blade. Ensure none of the old gasket falls into the crankcase.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "Remove the pressure relief valve from the crankcase. Remove both O-rings from the valve and replace with new ones. Reinstall the pressure relief valve.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "Install the new gasket into the oil filter housing. For 6-cylinder models, apply a small amount of RTV sealant to the timing cover to cylinder head joining area (both sides).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "**Reassembly:** Install the oil filter housing onto the engine. Ensure it is properly aligned with the dowels. Install the oil filter housing fasteners finger tight. Then tighten fasteners in a crisscross pattern (refer to a repair manual for specific torque specs).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic07.jpg"
+          },
+          {
+            "text": "Reinstall all removed components in reverse order (power steering pump, alternator, belts, wiring, etc.).",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/60-ENGINE-Oil_Filter_Housing_Gasket_Replacement/images_large/pic08.jpg"
+          },
+          {
+            "text": "**Final Steps:** Top up or change the engine oil. Run the engine and check for oil leaks."
+          }
+        ],
+        "image_url": ""
+      },
+      "power_steering_hose_replacement": {
+        "id": "power_steering_hose_replacement",
+        "title": "Power Steering Hose Replacement",
+        "description": "A guide to replacing power steering hoses in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "2-3 hours",
+        "tools": [
+          "13mm socket",
+          "Diagonal pliers",
+          "Hose crimp pliers (optional)",
+          "Screwdrivers",
+          "Drain pan",
+          "Jack and jack stands"
+        ],
+        "parts": [
+          "Power steering hoses (suction, return, pressure)",
+          "Hose clamps (non-crimp type recommended)",
+          "Crush washers (if replacing pressure hose at steering rack)",
+          "Power steering fluid (Dexron III ATF)"
+        ],
+        "steps": [
+          {
+            "text": "**Preparation:** Ensure the engine is cool before starting. Safely lift the front of the vehicle and support it on jack stands. Place a drain pan under the power steering reservoir and the power steering pump.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "**Drain the Power Steering Fluid:** Suction the fluid out of the power steering reservoir using a fluid pump or turkey baster."
+          },
+          {
+            "text": "**Access the Hoses:** You may need to remove components like the secondary air pump inlet hose, air filter housing, and air flow meter to gain access to the power steering reservoir and hoses, especially on 4-cylinder models."
+          },
+          {
+            "text": "**Remove the Old Hoses:** At the power steering reservoir, loosen the clamping bolt and remove the two fasteners holding the reservoir in place. Slide the reservoir up and out of its mounting bracket to access the hoses at the bottom.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "Remove the hose clamps from the hoses you are replacing. If they are crimp-style clamps, you may need to cut them off with diagonal pliers or loosen them with a screwdriver. Carefully remove the hoses from the reservoir. If they are original, they might be hard and may need to be cut off.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "For hoses connected to the power steering pump, loosen or cut the hose clamp for the inlet hose and remove it. For the pressure line, loosen it with a 17mm crows foot wrench. Be careful not to lose the O-ring when removing the line from the pump.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "**Install New Hoses and Reservoir (if applicable):** Place new clamps over the hoses before sliding the hoses onto the new reservoir. Mount the reservoir back into its bracket and tighten the clamping bolt and fasteners.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "Install the new hoses, ensuring proper routing. If replacing the power steering pump, transfer mounting brackets and the pulley to the new pump.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/38-ENGINE-Power_Steering_Reservoir_and_Cooling_Loop_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "**Refill and Bleed the Power Steering System:** Before starting the engine, fill the power steering reservoir with clean fluid (Dexron III ATF) to the MAX level on the dipstick."
+          },
+          {
+            "text": "Start the engine and turn the steering wheel fully left and right three times. Turn the engine off, check the fluid level, and add fluid until it reaches the MAX level on the dipstick."
+          },
+          {
+            "text": "Check for any leaks around the new hose connections. Lower the vehicle and test drive."
+          }
+        ],
+        "image_url": ""
+      },
+      "ignition_switch_replacement": {
+        "id": "ignition_switch_replacement",
+        "title": "Ignition Switch Replacement",
+        "description": "A guide to replacing the ignition switch or lock cylinder in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "2 hours",
+        "tools": [
+          "Small flathead screwdriver",
+          "Phillips head screwdriver",
+          "Lock cylinder tool (or stiff wire/paper clip)"
+        ],
+        "parts": [
+          "Ignition lock cylinder (if replacing mechanical lock)",
+          "Ignition switch (electrical portion)",
+          "EWS antenna (optional, if damaged)",
+          "Ignition lock cylinder O-ring (recommended)"
+        ],
+        "steps": [
+          {
+            "text": "**Safety First:** Disconnect the battery's negative terminal. Wait at least 10 minutes before working with the airbag system."
+          },
+          {
+            "text": "**Access the Ignition Switch:** Loosen the lower steering column trim Phillips head screw and pull the screw and expanding anchor out of the trim panel. Then, pull the trim panel straight down to remove it.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "At the bottom of the steering column, near the ignition switch, scrape away any paint covering the ignition switch fasteners. A small flat-head screwdriver can be used for this. Remove the small flat-head screws from the ignition switch. You might need to file down a screwdriver to make it narrow enough to fit into the screw holes.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "**Remove the Lock Cylinder (if necessary):** Rotate the ignition key to the accessory position (one position back from \"run\"). Insert a special BMW tool or a stiff wire/paper clip into the designated hole to disengage the lock cylinder. Wiggle the tool until the lock cylinder becomes loose and can be pulled out of the steering column. Wiggling the key back and forth can help seat the tool.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "Carefully remove the EWS (Electronic Immobilizer System) antenna from the lock cylinder (it has three plastic tabs) and pull the antenna off the lock cylinder.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "**Remove the Electrical Ignition Switch:** Once the screws are removed, slide the electrical ignition switch out of the steering column. Pull the electrical connector junction off the steering column. Squeeze the electrical connector release tabs and pull the connector apart.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic05.jpg"
+          },
+          {
+            "text": "**Install the New Switch:** Install the new electrical switch by reversing the removal steps. When tightening the screws, hold the switch firmly into the steering column to ensure it's properly engaged, but do not apply excessive pressure.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic06.jpg"
+          },
+          {
+            "text": "If you removed the EWS antenna, transfer it to the new lock cylinder and ensure it snaps into place. Slide the lock cylinder into the steering column (with the key in the accessory position) until it locks into place. Remember to install the O-ring between the lock cylinder and the steering column if it was present.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/61-BODY-Ignition_Switch_Replacement/images_large/pic07.jpg"
+          },
+          {
+            "text": "**Final Steps:** Reconnect the battery. Test the ignition system and ensure all functions work correctly. Clear any fault codes with a diagnostic tool if necessary."
+          }
+        ],
+        "image_url": ""
+      },
+      "thermostat_replacement": {
+        "id": "thermostat_replacement",
+        "title": "Thermostat Replacement",
+        "description": "A guide to replacing the thermostat in your BMW Z3.",
+        "difficulty": "Intermediate",
+        "time": "3 hours",
+        "tools": [
+          "Socket set",
+          "Wrench set",
+          "Screwdrivers",
+          "Plastic scraper",
+          "Drain pan",
+          "Hose clamp pliers (optional)"
+        ],
+        "parts": [
+          "Thermostat (with housing)",
+          "Coolant hoses (recommended)",
+          "Engine coolant (BMW G48 spec)",
+          "Distilled water"
+        ],
+        "steps": [
+          {
+            "text": "**1. Drain the Cooling System:** Ensure the engine is completely cold. To completely drain the system, set the heater to its hottest setting and turn on the ignition to open the heater discharge solenoid valve. Locate and remove the radiator and cylinder block drain plugs. Collect the old coolant in a suitable container. This is also an excellent opportunity to flush the cooling system and change the antifreeze."
+          },
+          {
+            "text": "**2. Access the Thermostat:** Remove the cooling fan shroud and the cooling fan. For 6-cylinder engines, you might need a special tool to hold the fan pulley while unfastening the viscous fan coupling nut, which has a left-hand thread. Disconnect the electrical connector from the thermostat by pressing its wire retaining clip and pulling it straight off.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Thermostat_Replacement/images_large/pic01.jpg"
+          },
+          {
+            "text": "**3. Remove the Old Thermostat:** Loosen the hose clamps and detach the radiator hoses connected to the thermostat. These hoses can be tight; gently wiggle them or use a flathead screwdriver to lever them off, being careful not to damage the hoses or plastic fittings. Unscrew the fasteners securing the thermostat housing. These typically include M6, M8, 10mm, or 13mm bolts. Carefully remove the thermostat from the engine. It might be stuck, and a gentle tap with a rubber mallet can help dislodge it. Be prepared for residual coolant to drip out.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Thermostat_Replacement/images_large/pic02.jpg"
+          },
+          {
+            "text": "**4. Prepare for New Thermostat Installation:** Clean the thermostat sealing surface on the engine using a plastic scraper. It is crucial to avoid metal scrapers or razor blades, as they can damage the sealing surface and lead to leaks.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Thermostat_Replacement/images_large/pic03.jpg"
+          },
+          {
+            "text": "**5. Install the New Thermostat:** Install the new thermostat, ensuring the electrical plug points upwards. If recommended, apply a suitable sealant to the thermostat housing mounting seat. Reattach the thermostat housing fasteners and tighten them to the specified torque values. For example, thermostat housing fasteners are often tightened to 7 Nm, and coolant pipe bracket fasteners to 11 Nm. Reconnect the coolant hoses, ensuring the retaining clips engage and click into place. A small amount of new coolant can be used to lubricate the hose O-rings for easier installation. Reconnect the electrical connector to the thermostat. Reinstall the cooling fan and shroud.",
+            "image_url": "https://www.pelicanparts.com/BMW/techarticles/BMW-Z3/30-WATER-Thermostat_Replacement/images_large/pic04.jpg"
+          },
+          {
+            "text": "**6. Refill and Bleed the Cooling System:** Close the coolant drain taps. Pour the manufacturer-recommended coolant into the coolant reservoir. Open the coolant system bleed screw (often a large circular plug on the expansion tank marked with a deep cross) while filling. Replace the bleed screw when a steady stream of coolant (without air bubbles) begins to flow out. Start the engine and run it briefly, revving it a few times to about 4,500 rpm, to circulate the coolant and help purge any remaining air. Check the coolant level and top it up as needed. Monitor the cooling system for any leaks."
+          }
+        ],
+        "image_url": ""
+      }
+    }
+  }
+}
