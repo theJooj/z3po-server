@@ -5,7 +5,7 @@ const fs = require('fs');
 const { Pinecone } = require('@pinecone-database/pinecone');
 
 // --- Configuration ---
-const PINECONE_API_KEY = process.env.PINECONE_API_KEY || 'pcsk_4U4D27_LB8UXCRZZZTjb5rqQ8ehhUs1ETNaKB1aMYkb27fQuobQtA6V1N5MmPaD7gd8zez';
+const PINECONE_API_KEY = process.env.PINECONE_API_KEY;
 const PINECONE_INDEX_NAME = 'bmw-z3-guide';
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
