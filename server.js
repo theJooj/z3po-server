@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const { Pinecone } = require('@pinecone-database/pinecone');
-const { pipeline } = require('@xenova/transformers');
 
 // --- Configuration ---
 const PINECONE_API_KEY = process.env.PINECONE_API_KEY || 'pcsk_4U4D27_LB8UXCRZZZTjb5rqQ8ehhUs1ETNaKB1aMYkb27fQuobQtA6V1N5MmPaD7gd8zez';
@@ -44,6 +43,9 @@ const initialize = async () => {
 
     console.log("Initializing Pinecone and pipeline...");
     pinecone = new Pinecone({ apiKey: PINECONE_API_KEY });
+    
+    // Use dynamic import for ESM module
+    const { pipeline } = await import('@xenova/transformers');
     pipe = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
     console.log("Initialization complete.");
   } catch (e) {
